@@ -75,7 +75,7 @@ begin
 
         -- 1. Write operation: simulate WR falling edge with data
         --PB(6 downto 0) <= "0001110";  -- Data to write
-		PB(5 downto 0) <= "001110";  -- 6 bits for data
+		PB(5 downto 0) <= "011011";  -- 6 bits for data
         PB(6) <= '1'; -- WR = high initially
         wait for 10 ns;
         PB(6) <= '0'; -- WR falling edge -> triggers write
