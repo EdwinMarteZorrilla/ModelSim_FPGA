@@ -1,0 +1,126 @@
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date: 04/22/2025 12:56:29 AM
+-- Design Name: 
+-- Module Name: shield_01 - Behavioral
+-- Project Name: 
+-- Target Devices: 
+-- Tool Versions: 
+-- Description: 
+-- 
+-- Dependencies: 
+-- 
+-- Revision:
+-- Revision 0.01 - File Created
+-- Additional Comments:
+-- 
+----------------------------------------------------------------------------------
+
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use ieee.numeric_std.all;   --for math operations
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx leaf cells in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity shield_01 is
+    Port ( --sw : in STD_LOGIC_VECTOR (3 downto 0);
+           --btn : in STD_LOGIC_VECTOR (3 downto 0);
+           --led : out STD_LOGIC_VECTOR (3 downto 0);
+            clk : in std_logic;
+           
+           PC : inout STD_LOGIC_VECTOR (7 downto 0);
+           start : in STD_LOGIC;           
+           --PC0-PC6 Data Out
+           --PC7     ACk  
+           
+           PB : in STD_LOGIC_VECTOR (7 downto 0));
+           --PB6= WR
+           --PB7= RD
+           --PB0-PB2  Data A
+           --PB3-PB5  Data B
+            
+           
+           
+end shield_01;
+
+architecture Behavioral of shield_01 is
+    signal enable     : std_logic := '0';
+    signal pulse_out  : std_logic := '1';
+   signal counter     : integer range 0 to 5 := 0;
+    signal data       : STD_LOGIC_VECTOR (6 downto 0) := (others => '0');
+
+    -- Internal signals to store PC output values to avoid multiple drivers
+    signal PC_internal : STD_LOGIC_VECTOR(7 downto 0) := (others => 'Z');
+
+    -- Previous states for edge detection
+    signal PB_prev : STD_LOGIC_VECTOR(7 downto 0) := (others => '1');
+
+begin
+
+
+
+ -- Edge detection and logic for PB(6) = WR
+    process(clk)
+	 --  variable counter : integer range 0 to 100 := 0;  -- variable inside process
+   
+    begin
+	
+        if rising_edge(clk) then
+
+            -- Default pulse_out behavior and counter decrement
+            if counter > 0 then
+                counter <= counter - 1;
+                if counter = 1 then
+                    pulse_out <= '1';  -- pulse ended
+                end if;
+            else
+                pulse_out <= '1'; -- pulse inactive
+            end if;
+
+            -- Detect falling edge on PB(6) = WR
+            if PB_prev(6) = '1' and PB(6) = '0' then
+                if enable = '1' then
+                    counter <= 5;           -- start pulse
+                    pulse_out <= '0';
+                    data <= PB(6 downto 0);  -- capture data bits
+                    PC_internal(7) <= '0';   -- ACK low
+                end if;
+            end if;
+
+            -- Detect falling edge on PB(7) = RD
+            if PB_prev(7) = '1' and PB(7) = '0' then
+                if enable = '1' then
+                    counter <= 5;           -- start pulse
+                    pulse_out <= '0';
+                    --PC_internal(6 downto 0) <= data+'1'; -- drive data out
+					PC_internal(6 downto 0) <=   resize(unsigned(data) + unsigned('1'),7)
+                    PC_internal(7) <= '0';   -- ACK low
+                end if;
+            end if;
+
+            -- Release ACK and data lines when pulse ends
+            if pulse_out = '1' then
+                PC_internal(7) <= '1';            -- ACK high
+                PC_internal(6 downto 0) <= (others => 'Z'); -- tri-state data lines
+            end if;
+
+            -- Update previous PB for edge detection
+            PB_prev <= PB;
+        end if;
+    end process;
+
+
+
+
+
+end Behavioral;

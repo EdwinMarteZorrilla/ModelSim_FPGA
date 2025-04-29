@@ -1,0 +1,19 @@
+{C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/2. FPGA_BasicMath_Shield/text_book_tb.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/2. FPGA_BasicMath_Shield/text_book_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Compiling entity text_book_tb
+-- Compiling architecture Behavioral of text_book
+** Error: (vcom-11) Could not find work.text_book.
+** Note: C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/2. FPGA_BasicMath_Shield/text_book_tb.vhd(7): VHDL Compiler exiting
+
+} {6.0 7.0} {}} {C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/2. FPGA_BasicMath_Shield/text_book.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/2. FPGA_BasicMath_Shield/text_book.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity text_book
+** Error: C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/2. FPGA_BasicMath_Shield/text_book.vhd(38): (vcom-1136) Unknown identifier "STD_LOGIC_VECTO".
+** Error: C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/2. FPGA_BasicMath_Shield/text_book.vhd(41): near "end": (vcom-1576) expecting IDENTIFIER.
+
+} {8.0 10.0} {}}

@@ -1,0 +1,201 @@
+# Compile of shield_01_arduino.vhd failed with 4 errors.
+# Compile of shield_01_arduino_tb.vhd was successful.
+# 2 compiles, 1 failed with 4 errors.
+# Compile of shield_01_arduino.vhd failed with 4 errors.
+# Compile of shield_01_arduino_tb.vhd was successful.
+# 2 compiles, 1 failed with 4 errors.
+# Compile of shield_01_arduino.vhd failed with 4 errors.
+# Compile of shield_01_arduino_tb.vhd was successful.
+# 2 compiles, 1 failed with 4 errors.
+# Compile of shield_01_arduino.vhd was successful.
+# Compile of shield_01_arduino_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of shield_01_arduino.vhd was successful.
+# Compile of shield_01_arduino_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.shield_01_tb
+# vsim -gui work.shield_01_tb 
+# Start time: 16:41:31 on Apr 27,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.shield_01_tb(behavioral)
+# Loading work.shield_01(behavioral)
+add wave -position end  sim:/shield_01_tb/clk
+add wave -position end  sim:/shield_01_tb/start
+add wave -position end  sim:/shield_01_tb/PB
+add wave -position end  sim:/shield_01_tb/PC
+run -all
+# Compile of shield_01_arduino.vhd was successful.
+# Compile of shield_01_arduino_tb.vhd failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+quit -sim
+# End time: 16:49:47 on Apr 27,2025, Elapsed time: 0:08:16
+# Errors: 0, Warnings: 7
+# Compile of shield_01_arduino.vhd was successful.
+# Compile of shield_01_arduino_tb.vhd failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of shield_01_arduino.vhd was successful.
+# Compile of shield_01_arduino_tb.vhd failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of shield_01_arduino.vhd was successful.
+# Compile of shield_01_arduino_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of shield_01_arduino.vhd was successful.
+# Compile of shield_01_arduino_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.shield_01_tb
+# vsim -gui work.shield_01_tb 
+# Start time: 16:54:44 on Apr 27,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.shield_01_tb(behavioral)
+# Loading work.shield_01(behavioral)
+add wave -position end  sim:/shield_01_tb/clk
+add wave -position end  sim:/shield_01_tb/start
+add wave -position end  sim:/shield_01_tb/PB
+add wave -position end  sim:/shield_01_tb/PC
+run -all
+quit -sim
+# End time: 18:19:26 on Apr 27,2025, Elapsed time: 1:24:42
+# Errors: 0, Warnings: 5
+# Compile of shield_01_arduino.vhd was successful.
+# Compile of shield_01_arduino_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of shield_01_arduino.vhd was successful.
+# Compile of shield_01_arduino_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.shield_01_tb
+# vsim -gui work.shield_01_tb 
+# Start time: 18:19:58 on Apr 27,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.shield_01_tb(behavioral)
+# Loading work.shield_01(behavioral)
+add wave -position end  sim:/shield_01_tb/clk
+add wave -position end  sim:/shield_01_tb/start
+add wave -position end  sim:/shield_01_tb/PB
+add wave -position end  sim:/shield_01_tb/PC
+run
+run -all
+# Compile of shield_01_arduino.vhd was successful.
+# Compile of shield_01_arduino_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+run -all
+quit -sim
+# End time: 18:25:02 on Apr 28,2025, Elapsed time: 24:05:04
+# Errors: 0, Warnings: 4
+# Compile of shield_01_arduino.vhd was successful.
+# Compile of shield_01_arduino_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.shield_01_tb
+# vsim -gui work.shield_01_tb 
+# Start time: 18:25:19 on Apr 28,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.shield_01_tb(behavioral)
+# Loading work.shield_01(behavioral)
+add wave -position end  sim:/shield_01_tb/clk
+add wave -position end  sim:/shield_01_tb/start
+add wave -position end  sim:/shield_01_tb/PB
+add wave -position end  sim:/shield_01_tb/PC
+run
+run -all
+quit -sim
+# End time: 18:34:09 on Apr 28,2025, Elapsed time: 0:08:50
+# Errors: 0, Warnings: 2
+# Compile of shield_01_arduino.vhd was successful.
+# Compile of shield_01_arduino_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.shield_01_tb
+# vsim -gui work.shield_01_tb 
+# Start time: 18:34:39 on Apr 28,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.shield_01_tb(behavioral)
+# Loading work.shield_01(behavioral)
+add wave -position end  sim:/shield_01_tb/clk
+add wave -position end  sim:/shield_01_tb/start
+add wave -position end  sim:/shield_01_tb/PB
+add wave -position end  sim:/shield_01_tb/PC
+run -all
+quit -sim
+# End time: 18:37:39 on Apr 28,2025, Elapsed time: 0:03:00
+# Errors: 0, Warnings: 2
+# Compile of shield_01_arduino.vhd was successful.
+# Compile of shield_01_arduino_tb.vhd failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of shield_01_arduino.vhd was successful.
+# Compile of shield_01_arduino_tb.vhd failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of shield_01_arduino.vhd was successful.
+# Compile of shield_01_arduino_tb.vhd failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of shield_01_arduino.vhd was successful.
+# Compile of shield_01_arduino_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.shield_01_tb
+# vsim -gui work.shield_01_tb 
+# Start time: 19:47:05 on Apr 28,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.shield_01_tb(behavioral)
+# Loading work.shield_01(behavioral)
+add wave -position end  sim:/shield_01_tb/clk
+add wave -position end  sim:/shield_01_tb/start
+add wave -position end  sim:/shield_01_tb/PB
+add wave -position end  sim:/shield_01_tb/PC
+run
+run
+# ** Note: Final PC = b00000001
+#    Time: 180 ns  Iteration: 0  Instance: /shield_01_tb
+run
+run
+run
+run
+run
+run
+# Compile of shield_01_arduino.vhd was successful.
+# Compile of shield_01_arduino_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+run
+quit -sim
+# End time: 20:38:08 on Apr 28,2025, Elapsed time: 0:51:03
+# Errors: 0, Warnings: 6
+# Compile of shield_01_arduino.vhd was successful.
+# Compile of shield_01_arduino_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.shield_01_tb
+# vsim -gui work.shield_01_tb 
+# Start time: 20:38:30 on Apr 28,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.shield_01_tb(behavioral)
+# Loading work.shield_01(behavioral)
+add wave -position end  sim:/shield_01_tb/clk
+add wave -position end  sim:/shield_01_tb/start
+add wave -position end  sim:/shield_01_tb/PB
+add wave -position end  sim:/shield_01_tb/PC
+run
+run
+# ** Note: Final PC = b11100001
+#    Time: 180 ns  Iteration: 0  Instance: /shield_01_tb
+run
+run
+run
+quit -sim
+# End time: 20:54:03 on Apr 28,2025, Elapsed time: 0:15:33
+# Errors: 0, Warnings: 2
