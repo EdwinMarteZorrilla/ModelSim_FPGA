@@ -295,3 +295,97 @@ force -freeze sim:/mux_2x1/in1 0 0
 run
 force -freeze sim:/mux_2x1/in0 0 0
 run
+quit -sim
+# End time: 00:13:13 on Apr 30,2025, Elapsed time: 13:40:08
+# Errors: 0, Warnings: 1
+# Compile of shield_01_arduino.vhd was successful.
+# Compile of shield_01_arduino_tb.vhd was successful.
+# Compile of text_book.vhd was successful.
+# Compile of text_book_tb.vhd was successful.
+# Compile of single_and.vhd was successful.
+# Compile of single_full.vhd was successful.
+# Compile of single_nand.vhd was successful.
+# Compile of single_not.vhd was successful.
+# Compile of single_or.vhd was successful.
+# 9 compiles, 0 failed with no errors.
+vsim -gui work.single_full
+# vsim -gui work.single_full 
+# Start time: 00:14:22 on Apr 30,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.single_full(behavioral)
+# Loading work.single_and(behavioral)
+# Loading work.single_not(behavioral)
+# Loading work.single_or(behavioral)
+# Loading work.single_nand(behavioral)
+add wave -position end  sim:/single_full/sw
+add wave -position end  sim:/single_full/led
+add wave -position end  sim:/single_full/A1
+add wave -position end  sim:/single_full/A2
+add wave -position end  sim:/single_full/A3
+add wave -position end  sim:/single_full/A4
+force -freeze sim:/single_full/sw(3) 0 0
+force -freeze sim:/single_full/sw(2) 0 0
+force -freeze sim:/single_full/sw(1) 0 0
+force -freeze sim:/single_full/sw(0) 0 0
+run
+force -freeze sim:/single_full/sw(3) 1 0
+run
+force -freeze sim:/single_full/sw(2) 1 0
+run
+force -freeze sim:/single_full/sw 0000 0
+run
+force -freeze sim:/single_full/sw 0001 0
+run
+force -freeze sim:/single_full/sw 0010 0
+run
+force -freeze sim:/single_full/sw 0011 0
+run
+force -freeze sim:/single_full/sw 0100 0
+run
+force -freeze sim:/single_full/sw 0101 0
+run
+force -freeze sim:/single_full/sw 0110 0
+run
+force -freeze sim:/single_full/sw 0111 0
+run
+force -freeze sim:/single_full/sw 1000 0
+run
+force -freeze sim:/single_full/sw 1001 0
+run
+force -freeze sim:/single_full/sw 1010 0
+run
+force -freeze sim:/single_full/sw 1011 0
+run
+force -freeze sim:/single_full/sw 1100 0
+run
+force -freeze sim:/single_full/sw 1101 0
+run
+force -freeze sim:/single_full/sw 1110 0
+run
+force -freeze sim:/single_full/sw 1111 0
+run
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+quit -sim
+# End time: 00:39:03 on Apr 30,2025, Elapsed time: 0:24:41
+# Errors: 0, Warnings: 1
+vsim -gui work.single_full(behavioral)
+# vsim -gui work.single_full(behavioral) 
+# Start time: 00:40:39 on Apr 30,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.single_full(behavioral)
+# Loading work.single_and(behavioral)
+# Loading work.single_not(behavioral)
+# Loading work.single_or(behavioral)
+# Loading work.single_nand(behavioral)
+# Note :: PA Debug File '' not found. PA Dataflow Coloring not enabled.
+add wave -position insertpoint  \
+sim:/single_full/sw
+add wave -position insertpoint  \
+sim:/single_full/led

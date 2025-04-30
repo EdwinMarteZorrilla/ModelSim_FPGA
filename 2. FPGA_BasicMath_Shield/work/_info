@@ -175,7 +175,7 @@ Z21 w1745888146
 R15
 R1
 R2
-!i122 191
+!i122 225
 R3
 Z22 8C:\Users\emartezorrilla\OneDrive - University of Florida\Documents\ModelSim_FPGA\2. FPGA_BasicMath_Shield\shield_01_arduino.vhd
 Z23 FC:\Users\emartezorrilla\OneDrive - University of Florida\Documents\ModelSim_FPGA\2. FPGA_BasicMath_Shield\shield_01_arduino.vhd
@@ -185,9 +185,9 @@ Va78ODEj73AiOBWPLm`U8k2
 !s100 N?>KVZ8j1P^c^UE^N^P^Z2
 R6
 32
-Z24 !s110 1745897355
+Z24 !s110 1745986437
 !i10b 1
-Z25 !s108 1745897355.000000
+Z25 !s108 1745986437.000000
 Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\emartezorrilla\OneDrive - University of Florida\Documents\ModelSim_FPGA\2. FPGA_BasicMath_Shield\shield_01_arduino.vhd|
 Z27 !s107 C:\Users\emartezorrilla\OneDrive - University of Florida\Documents\ModelSim_FPGA\2. FPGA_BasicMath_Shield\shield_01_arduino.vhd|
 !i113 1
@@ -198,7 +198,7 @@ R15
 R1
 R2
 DEx4 work 9 shield_01 0 22 a78ODEj73AiOBWPLm`U8k2
-!i122 191
+!i122 225
 l24
 L15 62
 VCc>kZZ1KK;_LnhS2b:Qm43
@@ -218,7 +218,7 @@ Z28 w1745888597
 R15
 R1
 R2
-!i122 192
+!i122 226
 R3
 Z29 8C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/2. FPGA_BasicMath_Shield/shield_01_arduino_tb.vhd
 Z30 FC:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/2. FPGA_BasicMath_Shield/shield_01_arduino_tb.vhd
@@ -228,11 +228,11 @@ VhTe79GLZejhR:L5D9kecn1
 !s100 ?Uzkh?CGO[GZj7G`Z[?VK0
 R6
 32
-R24
+Z31 !s110 1745986438
 !i10b 1
-R25
-Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/2. FPGA_BasicMath_Shield/shield_01_arduino_tb.vhd|
-Z32 !s107 C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/2. FPGA_BasicMath_Shield/shield_01_arduino_tb.vhd|
+Z32 !s108 1745986438.000000
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/2. FPGA_BasicMath_Shield/shield_01_arduino_tb.vhd|
+Z34 !s107 C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/2. FPGA_BasicMath_Shield/shield_01_arduino_tb.vhd|
 !i113 1
 R11
 R12
@@ -241,39 +241,39 @@ R15
 R1
 R2
 DEx4 work 12 shield_01_tb 0 22 hTe79GLZejhR:L5D9kecn1
-!i122 192
+!i122 226
 l43
 L8 97
 V49JJUS;jA<U415UjZGB7[0
 !s100 9RQ1^I889kAgzQk]=eU[90
 R6
 32
-R24
-!i10b 1
-R25
 R31
+!i10b 1
 R32
+R33
+R34
 !i113 1
 R11
 R12
 Esingle_and
-Z33 w1745891998
+Z35 w1745891998
 R15
 R1
 R2
-!i122 220
+!i122 229
 R3
-Z34 8C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/single_and.vhd
-Z35 FC:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/single_and.vhd
+Z36 8C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/single_and.vhd
+Z37 FC:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/single_and.vhd
 l0
 L5 1
 V]]eI1EHSFB6_]9W[U1iLm0
 !s100 L2Xb[6Mo0W3HN]NhzW;PD0
 R6
 32
-Z36 !s110 1745897641
+R31
 !i10b 1
-Z37 !s108 1745897641.000000
+R32
 Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/single_and.vhd|
 Z39 !s107 C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/single_and.vhd|
 !i113 1
@@ -284,41 +284,41 @@ R15
 R1
 R2
 DEx4 work 10 single_and 0 22 ]]eI1EHSFB6_]9W[U1iLm0
-!i122 220
+!i122 229
 l16
 Z40 L13 9
 V:Cm1L@k`cO049zYj;=T0d2
 !s100 9HkRebZ8K2;bKZ181:>M40
 R6
 32
-R36
+R31
 !i10b 1
-R37
+R32
 R38
 R39
 !i113 1
 R11
 R12
 Esingle_full
-Z41 w1745897635
+Z41 w1745986347
 R15
 R1
 R2
-!i122 221
+!i122 230
 R3
-Z42 8C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/single_full.vhd
-Z43 FC:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/single_full.vhd
+Z42 8C:\Users\emartezorrilla\OneDrive - University of Florida\Documents\ModelSim_FPGA\3. Single Gates\single_full.vhd
+Z43 FC:\Users\emartezorrilla\OneDrive - University of Florida\Documents\ModelSim_FPGA\3. Single Gates\single_full.vhd
 l0
 L5 1
-VoC02MNhSTOakhQDOLaG>71
-!s100 K;;hHei4cJ:JI=_X:i:dG0
+V@YJ<C4]2:[o:=eigi5QeP2
+!s100 d=B`1:`jU8E@6JRzJPI2<2
 R6
 32
-R36
+R31
 !i10b 1
-R37
-Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/single_full.vhd|
-Z45 !s107 C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/single_full.vhd|
+R32
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\emartezorrilla\OneDrive - University of Florida\Documents\ModelSim_FPGA\3. Single Gates\single_full.vhd|
+Z45 !s107 C:\Users\emartezorrilla\OneDrive - University of Florida\Documents\ModelSim_FPGA\3. Single Gates\single_full.vhd|
 !i113 1
 R11
 R12
@@ -326,17 +326,17 @@ Abehavioral
 R15
 R1
 R2
-DEx4 work 11 single_full 0 22 oC02MNhSTOakhQDOLaG>71
-!i122 221
+DEx4 work 11 single_full 0 22 @YJ<C4]2:[o:=eigi5QeP2
+!i122 230
 l53
-L15 55
-Vaa^kicnmK=nK<iRd5ok0g0
-!s100 [@4ljK`k4GF7[l1abZfdD2
+L15 57
+V9Ffibj0R2HA7UgFa]8<Y;3
+!s100 HiJQ^mFl:Se0:hnoR[OJV2
 R6
 32
-R36
+R31
 !i10b 1
-R37
+R32
 R44
 R45
 !i113 1
@@ -347,7 +347,7 @@ Z46 w1745897223
 R15
 R1
 R2
-!i122 222
+!i122 231
 R3
 Z47 8C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/single_nand.vhd
 Z48 FC:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/single_nand.vhd
@@ -357,9 +357,9 @@ V[1OKNJc4lnl05[ViEbDJY0
 !s100 obnGQB^CI5OndjP5OmI>X0
 R6
 32
-Z49 !s110 1745897642
+Z49 !s110 1745986439
 !i10b 1
-R37
+R32
 Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/single_nand.vhd|
 Z51 !s107 C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/single_nand.vhd|
 !i113 1
@@ -370,7 +370,7 @@ R15
 R1
 R2
 DEx4 work 11 single_nand 0 22 [1OKNJc4lnl05[ViEbDJY0
-!i122 222
+!i122 231
 l16
 R40
 V``MdPzGREk5fdA3jAH<9<0
@@ -379,7 +379,7 @@ R6
 32
 R49
 !i10b 1
-R37
+R32
 R50
 R51
 !i113 1
@@ -389,7 +389,7 @@ Esingle_not
 Z52 w1745893429
 R1
 R2
-!i122 223
+!i122 232
 R3
 Z53 8C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/single_not.vhd
 Z54 FC:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/single_not.vhd
@@ -401,7 +401,7 @@ R6
 32
 R49
 !i10b 1
-Z55 !s108 1745897642.000000
+Z55 !s108 1745986439.000000
 Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/single_not.vhd|
 Z57 !s107 C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/single_not.vhd|
 !i113 1
@@ -411,7 +411,7 @@ Abehavioral
 R1
 R2
 DEx4 work 10 single_not 0 22 dZ8><?khGcPng9:k5mF;B0
-!i122 223
+!i122 232
 l15
 L12 9
 VNAhI_HS`XCH4n?3ZbEKkM2
@@ -431,7 +431,7 @@ Z58 w1745892054
 R15
 R1
 R2
-!i122 224
+!i122 233
 R3
 Z59 8C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/single_or.vhd
 Z60 FC:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/single_or.vhd
@@ -454,7 +454,7 @@ R15
 R1
 R2
 Z63 DEx4 work 9 single_or 0 22 TaiOJPYR:B;n_IS>8Tf=k1
-!i122 224
+!i122 233
 l16
 R40
 Z64 VIPZMXRK;P1ijYU>AXSl>k3
@@ -474,7 +474,7 @@ Z66 w1745767052
 R15
 R1
 R2
-!i122 193
+!i122 227
 R3
 Z67 8C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/2. FPGA_BasicMath_Shield/text_book.vhd
 Z68 FC:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/2. FPGA_BasicMath_Shield/text_book.vhd
@@ -484,9 +484,9 @@ VbH?=V[Hm`?LlNzANk^IZ_0
 !s100 S[A7k5fUjD6kJ`HVmnnj70
 R6
 32
-R24
+R31
 !i10b 1
-R25
+R32
 Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/2. FPGA_BasicMath_Shield/text_book.vhd|
 Z70 !s107 C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/2. FPGA_BasicMath_Shield/text_book.vhd|
 !i113 1
@@ -497,16 +497,16 @@ R15
 R1
 R2
 DEx4 work 9 text_book 0 22 bH?=V[Hm`?LlNzANk^IZ_0
-!i122 193
+!i122 227
 l46
 L43 21
 Vz7OC8HYNbJkPkU?T=25`L2
 !s100 m=WLGN=eX@?SXQ>5b^2j42
 R6
 32
-R24
+R31
 !i10b 1
-R25
+R32
 R69
 R70
 !i113 1
@@ -516,7 +516,7 @@ Etext_book_tb
 Z71 w1745766417
 R1
 R2
-!i122 194
+!i122 228
 R3
 Z72 8C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/2. FPGA_BasicMath_Shield/text_book_tb.vhd
 Z73 FC:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/2. FPGA_BasicMath_Shield/text_book_tb.vhd
@@ -526,11 +526,11 @@ VifN>o=9;>V0GlBSzE0MF<1
 !s100 h;A4a4NSi?a@AZa:]ieHo3
 R6
 32
-Z74 !s110 1745897356
+R31
 !i10b 1
-R25
-Z75 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/2. FPGA_BasicMath_Shield/text_book_tb.vhd|
-Z76 !s107 C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/2. FPGA_BasicMath_Shield/text_book_tb.vhd|
+R32
+Z74 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/2. FPGA_BasicMath_Shield/text_book_tb.vhd|
+Z75 !s107 C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/2. FPGA_BasicMath_Shield/text_book_tb.vhd|
 !i113 1
 R11
 R12
@@ -538,18 +538,18 @@ Abehavioral
 R1
 R2
 DEx4 work 12 text_book_tb 0 22 ifN>o=9;>V0GlBSzE0MF<1
-!i122 194
+!i122 228
 l20
 L9 49
 V>5F>hFlfQBaUTKn9<Eb=H2
 !s100 _;SLG0>MVT_HOW9EjMeDh1
 R6
 32
-R74
+R31
 !i10b 1
-R25
+R32
+R74
 R75
-R76
 !i113 1
 R11
 R12

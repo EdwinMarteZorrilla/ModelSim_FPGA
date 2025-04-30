@@ -4,11 +4,11 @@ use ieee.numeric_std.all;
 
 entity single_full is
     Port ( 
-        A1  : in std_logic;
-        B1  : in STD_LOGIC;
-		C1  : in STD_LOGIC;
-        X1  : out STD_LOGIC;
-		Y1  : out STD_LOGIC
+    sw : in STD_LOGIC_VECTOR (3 downto 0);        
+        --SW(1)  : in STD_LOGIC;
+		--C1  : in STD_LOGIC;
+        led  : out STD_LOGIC_vector(3 downto 0)
+		--led(1)  : out STD_LOGIC
     );
 end single_full;
 
@@ -48,22 +48,24 @@ component single_not is
 end component single_not;
 
 
-signal           S1, S2, S3 : STD_LOGIC ;         
+signal   A1, A2, A3, A4 : STD_LOGIC ;         
 
 begin 
-  UUT1: single_and port map (A => S3, B => C1 , Y => X1 );
   
-  UUT2: single_nand port map (A => A1, B => S1 , Y => S3);
-  
-  UUT3: single_or port map (A => S2, B => C1 , Y => Y1);
-  
-  UUT4: single_not port map (A => B1, Y => S2);
-  
-  UUT5: single_not port map (A => S1, Y => S2);
-  
-  
-    
 
-
+  
+  -- Funcionando Circuito X
+  
+ 
+  UUT1: single_and port map (A => sw(2), B => A1 , Y => A2 );
+  UUT4: single_not port map (A => A2, Y => A3);
+  UUT3: single_or port map (A => A3, B => A4 , Y => led(2));
+  UUT5: single_not port map (A => sw(3), Y => A4);
+  UUT2: single_nand port map (A => sw(0), B => sw(1) , Y => A1);
+  
+  led(0) <= A1;
+  led(1) <= A3;
+  led(3) <= A4;
+  
     
 end Behavioral;

@@ -1,50 +1,10 @@
-{C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/single_or.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/single_or.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity single_or
--- Compiling architecture Behavioral of single_or
-
-} {} {}} {C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/single_nand.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/single_nand.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity single_nand
--- Compiling architecture Behavioral of single_nand
-** Error: C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/single_nand.vhd(18): near "not": (vcom-1576) expecting ';'.
-** Note: C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/single_nand.vhd(21): VHDL Compiler exiting
-
-} {9.0 10.0} {}} {C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/2. FPGA_BasicMath_Shield/text_book_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/2. FPGA_BasicMath_Shield/text_book_tb.vhd}
+{C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/2. FPGA_BasicMath_Shield/text_book_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/2. FPGA_BasicMath_Shield/text_book_tb.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Compiling entity text_book_tb
 -- Compiling architecture Behavioral of text_book_tb
-
-} {} {}} {C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/single_full.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/single_full.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity single_full
-** Error: C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/single_full.vhd(11): (vcom-1136) Unknown identifier "Y1".
-** Error: C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/single_full.vhd(11): Bad resolution function (STD_LOGIC) for type (error).
-** Error: C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/single_full.vhd(11): near ":": (vcom-1576) expecting ';' or ')'.
-
-} {8.0 11.0} {}} {C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/single_and.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/single_and.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity single_and
--- Compiling architecture Behavioral of single_and
 
 } {} {}} {C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/2. FPGA_BasicMath_Shield/shield_01_arduino.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\emartezorrilla\OneDrive - University of Florida\Documents\ModelSim_FPGA\2. FPGA_BasicMath_Shield\shield_01_arduino.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
