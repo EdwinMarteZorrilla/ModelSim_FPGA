@@ -1,305 +1,5 @@
 # Compile of shield_01_arduino.vhd was successful.
 # Compile of shield_01_arduino_tb.vhd was successful.
-# 2 compiles, 0 failed with no errors.
-vsim -gui work.shield_01_tb
-# vsim -gui work.shield_01_tb 
-# Start time: 21:00:41 on Apr 28,2025
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.shield_01_tb(behavioral)
-# Loading work.shield_01(behavioral)
-add wave -position insertpoint  \
-sim:/shield_01_tb/clk \
-sim:/shield_01_tb/start \
-sim:/shield_01_tb/PB \
-sim:/shield_01_tb/PC
-run
-run
-run
-run
-# ** Note: Final PC = b11100001
-#    Time: 180 ns  Iteration: 0  Instance: /shield_01_tb
-# Compile of shield_01_arduino.vhd was successful.
-# Compile of shield_01_arduino_tb.vhd was successful.
-# 2 compiles, 0 failed with no errors.
-run
-run
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.shield_01_tb(behavioral)
-# Loading work.shield_01(behavioral)
-run
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-run
-# ** Note: Final PC = b01100001
-#    Time: 180 ns  Iteration: 0  Instance: /shield_01_tb
-run
-write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/2. FPGA_BasicMath_Shield/wave.do}
-# Compile of shield_01_arduino.vhd was successful.
-# Compile of shield_01_arduino_tb.vhd was successful.
-# Compile of text_book.vhd was successful.
-# Compile of text_book_tb.vhd was successful.
-# 4 compiles, 0 failed with no errors.
-quit -sim
-# End time: 21:06:42 on Apr 28,2025, Elapsed time: 0:06:01
-# Errors: 0, Warnings: 3
-vsim -gui work.text_book_tb
-# vsim -gui work.text_book_tb 
-# Start time: 21:06:58 on Apr 28,2025
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.text_book_tb(behavioral)
-# Loading ieee.numeric_std(body)
-# Loading work.text_book(behavioral)
-add wave -position end  sim:/text_book_tb/abc
-add wave -position end  sim:/text_book_tb/j_i
-add wave -position end  sim:/text_book_tb/k_i
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-quit -sim
-# End time: 22:19:35 on Apr 28,2025, Elapsed time: 1:12:37
-# Errors: 0, Warnings: 1
-# Compile of single_and.vhd was successful.
-# Compile of single_full.vhd failed with 3 errors.
-# Compile of single_nand.vhd failed with 1 errors.
-# Compile of single_not.vhd was successful.
-# Compile of single_or.vhd was successful.
-# 5 compiles, 2 failed with 4 errors.
-# Compile of single_and.vhd was successful.
-# Compile of single_full.vhd failed with 3 errors.
-# Compile of single_nand.vhd failed with 1 errors.
-# Compile of single_not.vhd was successful.
-# Compile of single_or.vhd was successful.
-# 5 compiles, 2 failed with 4 errors.
-# Compile of shield_01_arduino.vhd was successful.
-# Compile of shield_01_arduino_tb.vhd was successful.
-# Compile of text_book.vhd was successful.
-# Compile of text_book_tb.vhd was successful.
-# Compile of single_and.vhd was successful.
-# Compile of single_full.vhd failed with 3 errors.
-# Compile of single_nand.vhd failed with 1 errors.
-# Compile of single_not.vhd was successful.
-# Compile of single_or.vhd was successful.
-# 9 compiles, 2 failed with 4 errors.
-# Compile of single_and.vhd was successful.
-# Compile of single_full.vhd failed with 3 errors.
-# Compile of single_nand.vhd was successful.
-# Compile of single_not.vhd was successful.
-# Compile of single_or.vhd was successful.
-# 5 compiles, 1 failed with 3 errors.
-# Compile of shield_01_arduino.vhd was successful.
-# Compile of shield_01_arduino_tb.vhd was successful.
-# Compile of text_book.vhd was successful.
-# Compile of text_book_tb.vhd was successful.
-# Compile of single_and.vhd was successful.
-# Compile of single_full.vhd failed with 3 errors.
-# Compile of single_nand.vhd was successful.
-# Compile of single_not.vhd was successful.
-# Compile of single_or.vhd was successful.
-# 9 compiles, 1 failed with 3 errors.
-# Compile of shield_01_arduino.vhd was successful.
-# Compile of shield_01_arduino_tb.vhd was successful.
-# Compile of text_book.vhd was successful.
-# Compile of text_book_tb.vhd was successful.
-# Compile of single_and.vhd was successful.
-# Compile of single_full.vhd failed with 10 errors.
-# Compile of single_nand.vhd was successful.
-# Compile of single_not.vhd was successful.
-# Compile of single_or.vhd was successful.
-# 9 compiles, 1 failed with 10 errors.
-# Compile of single_and.vhd was successful.
-# Compile of single_full.vhd failed with 8 errors.
-# Compile of single_nand.vhd was successful.
-# Compile of single_not.vhd was successful.
-# Compile of single_or.vhd was successful.
-# 5 compiles, 1 failed with 8 errors.
-# Compile of single_and.vhd was successful.
-# Compile of single_full.vhd failed with 5 errors.
-# Compile of single_nand.vhd was successful.
-# Compile of single_not.vhd was successful.
-# Compile of single_or.vhd was successful.
-# 5 compiles, 1 failed with 5 errors.
-# Compile of single_and.vhd was successful.
-# Compile of single_full.vhd failed with 5 errors.
-# Compile of single_nand.vhd was successful.
-# Compile of single_not.vhd was successful.
-# Compile of single_or.vhd was successful.
-# 5 compiles, 1 failed with 5 errors.
-# Compile of single_and.vhd was successful.
-# Compile of single_full.vhd failed with 5 errors.
-# Compile of single_nand.vhd was successful.
-# Compile of single_not.vhd was successful.
-# Compile of single_or.vhd was successful.
-# 5 compiles, 1 failed with 5 errors.
-# Compile of single_and.vhd was successful.
-# Compile of single_full.vhd was successful.
-# Compile of single_nand.vhd was successful.
-# Compile of single_not.vhd was successful.
-# Compile of single_or.vhd was successful.
-# 5 compiles, 0 failed with no errors.
-# Load canceled
-vsim -gui work.single_and
-# vsim -gui work.single_and 
-# Start time: 23:37:51 on Apr 28,2025
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.single_and(behavioral)
-add wave -position end  sim:/single_and/A
-add wave -position end  sim:/single_and/B
-add wave -position end  sim:/single_and/Y
-force -freeze sim:/single_and/A 1 10ns
-force -freeze sim:/single_and/B 0 20ns
-run
-force -freeze sim:/single_and/B 1 5ns
-run
-force -freeze sim:/single_and/A 1 0
-run
-force -freeze sim:/single_and/A 0 0
-run
-quit -sim
-# End time: 23:42:13 on Apr 28,2025, Elapsed time: 0:04:22
-# Errors: 0, Warnings: 13
-vsim -gui work.single_full
-# vsim -gui work.single_full 
-# Start time: 23:42:23 on Apr 28,2025
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.single_full(behavioral)
-# Loading work.single_and(behavioral)
-# Loading work.single_nand(behavioral)
-# Loading work.single_or(behavioral)
-# Loading work.single_not(behavioral)
-add wave -position end  sim:/single_full/A1
-add wave -position end  sim:/single_full/B1
-add wave -position end  sim:/single_full/C1
-add wave -position end  sim:/single_full/X1
-add wave -position end  sim:/single_full/Y1
-add wave -position end  sim:/single_full/S1
-add wave -position end  sim:/single_full/S2
-add wave -position end  sim:/single_full/S3
-force -freeze sim:/single_full/A1 0 0
-force -freeze sim:/single_full/B1 0 0
-force -freeze sim:/single_full/C1 0 0
-run
-force -freeze sim:/single_full/C1 1 0
-run
-force -freeze sim:/single_full/A1 1 0
-force -freeze sim:/single_full/C1 0 0
-run
-quit -sim
-# End time: 00:42:11 on Apr 29,2025, Elapsed time: 0:59:48
-# Errors: 0, Warnings: 1
-vsim -gui work.shield_01
-# vsim -gui work.shield_01 
-# Start time: 00:42:29 on Apr 29,2025
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.shield_01(behavioral)
-add wave -position end  sim:/shield_01/clk
-add wave -position end  sim:/shield_01/PC
-add wave -position end  sim:/shield_01/start
-add wave -position end  sim:/shield_01/PB
-add wave -position end  sim:/shield_01/state
-add wave -position end  sim:/shield_01/data_in
-add wave -position end  sim:/shield_01/PC_internal
-add wave -position end  sim:/shield_01/PB_prev
-force -freeze sim:/shield_01/clk 1 0, 0 {50 ps} -r 100
-run
-restart -f
-force -freeze sim:/shield_01/clk 1 0, 0 {50 ps} -r 100
-run
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-force -freeze sim:/shield_01/PB(6) 1 0
-force -freeze sim:/shield_01/PB(6) 1 0
-force -freeze sim:/shield_01/PB(7) 1 0
-run
-restart -f
-run
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-restart -f
-force -freeze sim:/shield_01/clk 1 0, 0 {50 ps} -r 100
-force -freeze sim:/shield_01/PB(7) 1 0
-force -freeze sim:/shield_01/PB(6) 1 0
-force -freeze sim:/shield_01/PB(1) 1 0
-force -freeze sim:/shield_01/PB(0) 1 0
-force -freeze sim:/shield_01/PB(3) 1 0
-force -freeze sim:/shield_01/PB(6) 1 0
-run
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-force -freeze sim:/shield_01/PB(5) 0 0
-force -freeze sim:/shield_01/PB(2) 0 0
-force -freeze sim:/shield_01/PB(4) 0 0
-force -freeze sim:/shield_01/PB(5) 0 0
-run
-force -freeze sim:/shield_01/PB(6) 0 0
-run
-force -freeze sim:/shield_01/PB(6) 1 0
-run
-force -freeze sim:/shield_01/PB(7) 0 0
-run
-force -freeze sim:/shield_01/PB(7) 1 0
-run
-quit -sim
-# End time: 10:32:52 on Apr 29,2025, Elapsed time: 9:50:23
-# Errors: 0, Warnings: 1
-vsim -gui work.mux_2x1
-# vsim -gui work.mux_2x1 
-# Start time: 10:33:05 on Apr 29,2025
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.mux_2x1(default_arch)
-# Loading work.mux_2x1(if_statement)
-add wave -position end  sim:/mux_2x1/in0
-add wave -position end  sim:/mux_2x1/in1
-add wave -position end  sim:/mux_2x1/sel
-add wave -position end  sim:/mux_2x1/output
-force -freeze sim:/mux_2x1/in0 0 0
-force -freeze sim:/mux_2x1/in1 0 0
-force -freeze sim:/mux_2x1/sel 0 0
-run
-force -freeze sim:/mux_2x1/in0 1 0
-run
-force -freeze sim:/mux_2x1/in1 1 0
-run
-force -freeze sim:/mux_2x1/sel 1 0
-run
-force -freeze sim:/mux_2x1/in1 0 0
-run
-force -freeze sim:/mux_2x1/in0 0 0
-run
-quit -sim
-# End time: 00:13:13 on Apr 30,2025, Elapsed time: 13:40:08
-# Errors: 0, Warnings: 1
-# Compile of shield_01_arduino.vhd was successful.
-# Compile of shield_01_arduino_tb.vhd was successful.
 # Compile of text_book.vhd was successful.
 # Compile of text_book_tb.vhd was successful.
 # Compile of single_and.vhd was successful.
@@ -308,84 +8,52 @@ quit -sim
 # Compile of single_not.vhd was successful.
 # Compile of single_or.vhd was successful.
 # 9 compiles, 0 failed with no errors.
-vsim -gui work.single_full
-# vsim -gui work.single_full 
-# Start time: 00:14:22 on Apr 30,2025
+# Load canceled
+# Compile of shield_01_arduino.vhd was successful.
+# Compile of shield_01_arduino_tb.vhd was successful.
+# Compile of text_book.vhd was successful.
+# Compile of text_book_tb.vhd was successful.
+# Compile of single_and.vhd was successful.
+# Compile of single_full.vhd was successful.
+# Compile of single_nand.vhd was successful.
+# Compile of single_not.vhd was successful.
+# Compile of single_or.vhd was successful.
+# Compile of single_full_tb.vhd was successful.
+# 10 compiles, 0 failed with no errors.
+vsim -gui work.single_full_tb
+# vsim -gui work.single_full_tb 
+# Start time: 15:29:40 on Apr 30,2025
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.numeric_std(body)
+# Loading work.single_full_tb(behavioral)
 # Loading work.single_full(behavioral)
 # Loading work.single_and(behavioral)
 # Loading work.single_not(behavioral)
 # Loading work.single_or(behavioral)
 # Loading work.single_nand(behavioral)
-add wave -position end  sim:/single_full/sw
-add wave -position end  sim:/single_full/led
-add wave -position end  sim:/single_full/A1
-add wave -position end  sim:/single_full/A2
-add wave -position end  sim:/single_full/A3
-add wave -position end  sim:/single_full/A4
-force -freeze sim:/single_full/sw(3) 0 0
-force -freeze sim:/single_full/sw(2) 0 0
-force -freeze sim:/single_full/sw(1) 0 0
-force -freeze sim:/single_full/sw(0) 0 0
+add wave -position end  sim:/single_full_tb/sw
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: emartezorrilla  Hostname: EED-PW09QMW8  ProcessID: 58772
+#           Attempting to use alternate WLF file "./wlfthg8i7q".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfthg8i7q
+add wave -position end  sim:/single_full_tb/led
 run
-force -freeze sim:/single_full/sw(3) 1 0
 run
-force -freeze sim:/single_full/sw(2) 1 0
 run
-force -freeze sim:/single_full/sw 0000 0
 run
-force -freeze sim:/single_full/sw 0001 0
 run
-force -freeze sim:/single_full/sw 0010 0
 run
-force -freeze sim:/single_full/sw 0011 0
 run
-force -freeze sim:/single_full/sw 0100 0
 run
-force -freeze sim:/single_full/sw 0101 0
 run
-force -freeze sim:/single_full/sw 0110 0
 run
-force -freeze sim:/single_full/sw 0111 0
 run
-force -freeze sim:/single_full/sw 1000 0
 run
-force -freeze sim:/single_full/sw 1001 0
 run
-force -freeze sim:/single_full/sw 1010 0
 run
-force -freeze sim:/single_full/sw 1011 0
 run
-force -freeze sim:/single_full/sw 1100 0
 run
-force -freeze sim:/single_full/sw 1101 0
 run
-force -freeze sim:/single_full/sw 1110 0
-run
-force -freeze sim:/single_full/sw 1111 0
-run
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-quit -sim
-# End time: 00:39:03 on Apr 30,2025, Elapsed time: 0:24:41
-# Errors: 0, Warnings: 1
-vsim -gui work.single_full(behavioral)
-# vsim -gui work.single_full(behavioral) 
-# Start time: 00:40:39 on Apr 30,2025
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.single_full(behavioral)
-# Loading work.single_and(behavioral)
-# Loading work.single_not(behavioral)
-# Loading work.single_or(behavioral)
-# Loading work.single_nand(behavioral)
-# Note :: PA Debug File '' not found. PA Dataflow Coloring not enabled.
-add wave -position insertpoint  \
-sim:/single_full/sw
-add wave -position insertpoint  \
-sim:/single_full/led
