@@ -7,7 +7,8 @@ First I wanted to create a logics thata test every situation.
 My first attempt uses invidual file defitions for creating the main file. Also I produce the Testbench
 for testing every posibiltiy.
 
-<img src="https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/img/circuit.jpg" width=50% height=50%>
+|
+| <img src="https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/img/circuit.jpg" width=50% height=50%> |  <img src="https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/img/circuit.jpg" width=50% height=50%>|
 
 
 
