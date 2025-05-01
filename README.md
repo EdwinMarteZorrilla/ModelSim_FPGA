@@ -1,8 +1,24 @@
 # ModelSim_FPGA
 FPGA Projects
 
-I wanted to create a project that tested most of the basics of VHDL for combinatory logic.
-I chose a random circuit like the one below. I made sure I used different logica gates an several input and outputs from the fpga.
+This repository contains a collection of FPGA projects designed to explore and demonstrate foundational concepts in VHDL, particularly focusing on combinational logic. The goal was to create a project that systematically tests and reinforces the basics of VHDL by implementing a randomly designed digital circuit.
+
+The circuit used in this project incorporates a variety of logic gates, including AND, OR, NOT, and NAND. Special care was taken to use multiple types of logic gates and to ensure that several inputs and outputs on the FPGA board are utilized, providing a broad test of combinational logic implementation.
+
+These exercises not only serve as practice for writing VHDL code but also help in understanding how logical expressions are synthesized and mapped to real hardware using FPGA technology. This project is ideal for beginners who want hands-on experience with VHDL and digital circuit design.
+
+Circuit Design
+The following diagram represents the custom combinational logic circuit I designed for this project. The circuit was intentionally created to incorporate a diverse set of logic gates, demonstrating how different Boolean operations interact within a single design.
+
+Key features of this circuit include:
+
+A mix of basic logic gates (AND, OR, NOT) and derived gates (NAND, NOR, XOR, XNOR).
+
+Multiple input variables to test different logic combinations.
+
+Several output signals to observe various computed logic results.
+
+Optimized for FPGA implementation, ensuring that all logic functions are correctly synthesized and mapped to hardware.
 
  <img src="https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/img/circuit.jpg" width=35% height=35%  align="center">  
 
