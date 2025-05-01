@@ -5,9 +5,7 @@ This repository contains a collection of FPGA projects designed to explore and d
 
 The circuit used in this project incorporates a variety of logic gates, including AND, OR, NOT, and NAND. Special care was taken to use multiple types of logic gates and to ensure that several inputs and outputs on the FPGA board are utilized, providing a broad test of combinational logic implementation.
 
-These exercises not only serve as practice for writing VHDL code but also help in understanding how logical expressions are synthesized and mapped to real hardware using FPGA technology. This project is ideal for beginners who want hands-on experience with VHDL and digital circuit design.
-
-Circuit Design
+!!Circuit Design
 The following diagram represents the custom combinational logic circuit I designed for this project. The circuit was intentionally created to incorporate a diverse set of logic gates, demonstrating how different Boolean operations interact within a single design.
 
 Key features of this circuit include:
