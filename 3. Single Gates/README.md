@@ -1,7 +1,9 @@
 # Option #1: 
 > [!IMPORTANT]
 > Using a top-level module to instantiate several individual gate-level components, each defined in separate VHDL files
-<img src="https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/img/circuit.jpg" width=35% height=35%  align="center">    
+<img src="https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/img/circuit.jpg" width=35% height=35%  align="center">
+<img src="https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/img/opcion1.jpg" width=35% height=35%  align="center">
+
 
 > [!NOTE]
 > **VHDL Files and Testbench**
@@ -10,7 +12,7 @@
 * [Test Bench](https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/3.%20Single%20Gates/single_full_tb.vhd.)
 
 ```
- library IEEE;
+library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use ieee.numeric_std.all;
 
