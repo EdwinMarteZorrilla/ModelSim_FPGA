@@ -57,3 +57,18 @@ run
 run
 run
 run
+quit -sim
+# End time: 16:48:37 on May 02,2025, Elapsed time: 49:18:57
+# Errors: 0, Warnings: 6
+# Compile of shield_01_arduino.vhd was successful.
+# Compile of shield_01_arduino_tb.vhd was successful.
+# Compile of text_book.vhd was successful.
+# Compile of text_book_tb.vhd was successful.
+# Compile of single_and.vhd was successful.
+# Compile of single_full.vhd was successful.
+# Compile of single_nand.vhd was successful.
+# Compile of single_not.vhd was successful.
+# Compile of single_or.vhd was successful.
+# Compile of single_full_tb.vhd was successful.
+# Compile of opcion2_full.vhd failed with 3 errors.
+# 11 compiles, 1 failed with 3 errors.
