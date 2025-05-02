@@ -2,7 +2,7 @@
 > [!IMPORTANT]
 > Using a top-level module to instantiate several individual gate-level components, each defined in separate VHDL files
 <img src="https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/img/circuit.jpg" width=35% height=35%  align="center">
-<img src="https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/img/opcion1.jpg" width=35% height=35%  align="center">
+<img src="https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/img/opcion2.jpg" width=35% height=35%  align="center">
 
 
 > [!NOTE]
