@@ -24,3 +24,71 @@ clear
 # Compile of opcion2_full.vhd was successful.
 # Compile of single_full_tb.vhd was successful.
 # 2 compiles, 0 failed with no errors.
+# Project file C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion2/test.mpf is write protected, data cannot be saved.
+# Unable to save project.
+# Compile of opcion2_full.vhd was successful with warnings.
+# Compile of single_full_tb.vhd was successful with warnings.
+# Compile of opcion2_full_tb.vhd was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+# Project file C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion2/test.mpf is write protected, data cannot be saved.
+# Unable to save project.
+# Compile of opcion2_full.vhd was successful with warnings.
+# Compile of single_full_tb.vhd was successful with warnings.
+# Compile of opcion2_full_tb.vhd was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+# Project file C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion2/test.mpf is write protected, data cannot be saved.
+# Unable to save project.
+vsim -gui work.opcion2_full_tb
+# ** Warning: (vsim-14) Failed to open "C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion2/test.mpf" specified by the MODELSIM environment variable.
+# No such file or directory. (errno = ENOENT)
+# vsim -gui work.opcion2_full_tb 
+# Start time: 17:43:18 on May 03,2025
+# ** Error: (vsim-7) Failed to open ini file "C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion2/test.mpf" in read mode.
+# Invalid argument. (errno = EINVAL)
+# ** Error: (vsim-7) Failed to open ini file "C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion2/test.mpf" in read mode.
+# Invalid argument. (errno = EINVAL)
+# ** Error (suppressible): (vsim-19) Failed to access library 'std' at "std".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# Project file C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion2/test.mpf is write protected, data cannot be saved.
+# Unable to save project.
+# End time: 17:43:19 on May 03,2025, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 32
+vsim -gui work.opcion2_full_tb
+# ** Warning: (vsim-14) Failed to open "C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion2/test.mpf" specified by the MODELSIM environment variable.
+# No such file or directory. (errno = ENOENT)
+# vsim -gui work.opcion2_full_tb 
+# Start time: 17:44:11 on May 03,2025
+# ** Error: (vsim-7) Failed to open ini file "C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion2/test.mpf" in read mode.
+# Invalid argument. (errno = EINVAL)
+# ** Error: (vsim-7) Failed to open ini file "C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion2/test.mpf" in read mode.
+# Invalid argument. (errno = EINVAL)
+# ** Error (suppressible): (vsim-19) Failed to access library 'std' at "std".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# Project file C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion2/test.mpf is write protected, data cannot be saved.
+# Unable to save project.
+# End time: 17:44:12 on May 03,2025, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 1
+# reading C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project opcion2
+# Compile of opcion2_full.vhd was successful.
+# Compile of opcion2_full_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.opcion2_full_tb
+# vsim -gui work.opcion2_full_tb 
+# Start time: 17:45:16 on May 03,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.opcion2_full_tb(behavioral)
+# Loading work.opcion2_full(behavioral)
+# Loading work.single_and(bev_and)
+# Loading work.single_not(bev_not)
+# Loading work.single_or(bev_or)
+# Loading work.single_nand(bev_nand)
+add wave -position end  sim:/opcion2_full_tb/sw
+add wave -position end  sim:/opcion2_full_tb/led
+run
+run
