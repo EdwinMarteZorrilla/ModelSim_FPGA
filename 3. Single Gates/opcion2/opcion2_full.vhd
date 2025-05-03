@@ -2,80 +2,49 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use ieee.numeric_std.all;
 
-entity single_full is
+entity opcion2_full is
     Port ( 
     sw : in STD_LOGIC_VECTOR (3 downto 0);        
         --SW(1)  : in STD_LOGIC;
 		--C1  : in STD_LOGIC;
-        led  : out STD_LOGIC_vector(3 downto 0)
+        led  : out STD_LOGIC_VECTOR(3 downto 0)
 		--led(1)  : out STD_LOGIC
     );
-end single_full;
+end opcion2_full;
 
------------------------------------------------------
+architecture Behavioral of opcion2_full is
 
-entity single_or is
+component single_and is
+    Port ( 
+        A  : in STD_LOGIC;
+        B  : in STD_LOGIC;
+        Y  : out STD_LOGIC
+    );
+end component single_and;
+
+
+component single_nand is
     Port ( 
         A  : in std_logic;
         B  : in STD_LOGIC;
         Y  : out STD_LOGIC
     );
-end single_or;
+end component single_nand;
 
-architecture Behavioral of single_or is
-
-    
-begin
-
-    Y <= A or B;
-
-    
-end Behavioral;
-
-
------------------------------------------------------
-
-entity single_not is
-    Port ( 
-        A  : in std_logic;
-        Y  : out STD_LOGIC
-    );
-end single_not;
-
-architecture Behavioral of single_not is
-
-    
-begin
-
-    Y <= not A;
-
-    
-end Behavioral;
------------------------------------------------------
-
-entity single_nand is
+component single_or is
     Port ( 
         A  : in std_logic;
         B  : in STD_LOGIC;
         Y  : out STD_LOGIC
     );
-end single_nand;
------------------------------------------------------
+end component single_or;
 
-architecture Behavioral of single_nand is
-
-    
-begin
-
-    Y <= not (A  and B);
-
-    
-end Behavioral;
-
------------------------------------------------------
-
-architecture Behavioral of single_full is
-
+component single_not is
+    Port ( 
+        A  : in std_logic;
+        Y  : out STD_LOGIC
+    );
+end component single_not;
 
 signal   A1, A2, A3, A4 : STD_LOGIC ;         
 
@@ -98,3 +67,95 @@ begin
   
     
 end Behavioral;
+
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use ieee.numeric_std.all;
+entity single_or is
+    Port ( 
+        A  : in STD_LOGIC;
+        B  : in STD_LOGIC;
+        Y  : out STD_LOGIC
+    );
+end single_or;
+
+architecture Bev_or of single_or is
+
+    
+begin
+
+    Y <= A or B;
+
+    
+end Bev_or;
+
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use ieee.numeric_std.all;
+
+entity single_not is
+    Port ( 
+        A  : in std_logic;
+        Y  : out STD_LOGIC
+    );
+end single_not;
+
+architecture Bev_not of single_not is
+
+    
+begin
+
+    Y <= not A;
+
+    
+end Bev_not;
+-----------------------------------------------------
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use ieee.numeric_std.all;
+entity single_nand is
+
+    Port ( 
+        A  : in std_logic;
+        B  : in STD_LOGIC;
+        Y  : out STD_LOGIC
+    );
+end single_nand;
+-----------------------------------------------------
+
+architecture Bev_nand of single_nand is
+
+    
+begin
+
+    Y <= not (A  and B);
+
+    
+end Bev_nand;
+
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use ieee.numeric_std.all;
+entity single_and is
+    Port ( 
+        A  : in std_logic;
+        B  : in STD_LOGIC;
+        Y  : out STD_LOGIC
+    );
+end single_and;
+
+architecture Bev_and of single_and is
+
+    
+begin
+
+    Y <= A and B;
+
+    
+end Bev_and;
+-----------------------------------------------------
+

@@ -72,3 +72,73 @@ quit -sim
 # Compile of single_full_tb.vhd was successful.
 # Compile of opcion2_full.vhd failed with 3 errors.
 # 11 compiles, 1 failed with 3 errors.
+# Compile of shield_01_arduino.vhd was successful.
+# Compile of shield_01_arduino_tb.vhd was successful.
+# Compile of text_book.vhd was successful.
+# Compile of text_book_tb.vhd was successful.
+# Compile of single_and.vhd was successful.
+# Compile of single_full.vhd was successful.
+# Compile of single_nand.vhd was successful.
+# Compile of single_not.vhd was successful.
+# Compile of single_or.vhd was successful.
+# Compile of single_full_tb.vhd was successful.
+# Compile of opcion2_full.vhd failed with 3 errors.
+# 11 compiles, 1 failed with 3 errors.
+# Compile of shield_01_arduino.vhd was successful.
+# Compile of shield_01_arduino_tb.vhd was successful.
+# Compile of text_book.vhd was successful.
+# Compile of text_book_tb.vhd was successful.
+# Compile of single_and.vhd was successful.
+# Compile of single_full.vhd was successful.
+# Compile of single_nand.vhd was successful.
+# Compile of single_not.vhd was successful.
+# Compile of single_or.vhd was successful.
+# Compile of single_full_tb.vhd was successful.
+# Compile of opcion2_full.vhd failed with 3 errors.
+# 11 compiles, 1 failed with 3 errors.
+# Compile of shield_01_arduino.vhd was successful.
+# Compile of shield_01_arduino_tb.vhd was successful.
+# Compile of text_book.vhd was successful.
+# Compile of text_book_tb.vhd was successful.
+# Compile of single_and.vhd was successful.
+# Compile of single_full.vhd was successful.
+# Compile of single_nand.vhd was successful.
+# Compile of single_not.vhd was successful.
+# Compile of single_or.vhd was successful.
+# Compile of single_full_tb.vhd was successful.
+# Compile of opcion2_full.vhd failed with 3 errors.
+# 11 compiles, 1 failed with 3 errors.
+# Compile of shield_01_arduino.vhd was successful.
+# Compile of shield_01_arduino_tb.vhd was successful.
+# Compile of text_book.vhd was successful.
+# Compile of text_book_tb.vhd was successful.
+# Compile of single_and.vhd was successful.
+# Compile of single_full.vhd was successful.
+# Compile of single_nand.vhd was successful.
+# Compile of single_not.vhd was successful.
+# Compile of single_or.vhd was successful.
+# Compile of single_full_tb.vhd was successful.
+# Compile of opcion2_full.vhd failed with 3 errors.
+# 11 compiles, 1 failed with 3 errors.
+# Compile of shield_01_arduino.vhd was successful.
+# Compile of shield_01_arduino_tb.vhd was successful.
+# Compile of text_book.vhd was successful.
+# Compile of text_book_tb.vhd was successful.
+# Compile of single_and.vhd was successful.
+# Compile of single_full.vhd was successful.
+# Compile of single_nand.vhd was successful.
+# Compile of single_not.vhd was successful.
+# Compile of single_or.vhd was successful.
+# Compile of single_full_tb.vhd was successful.
+# Compile of opcion2_full.vhd failed with 3 errors.
+# 11 compiles, 1 failed with 3 errors.
+vcom opcion2_full.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:38:26 on May 02,2025
+# vcom -reportprogress 300 opcion2_full.vhd 
+# ** Error: (vcom-7) Failed to open design unit file "opcion2_full.vhd" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 20:38:26 on May 02,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vcom failed.
+cd {C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion2}
