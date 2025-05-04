@@ -48,6 +48,10 @@ end Bev_not;
 ```
 
 * [opcion2_Full.vhd](https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/3.%20Single%20Gates/opcion2/opcion2_full.vhd).
+* [opcion2_Full_tb.vhd](https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/3.%20Single%20Gates/opcion2/opcion2_full_tb.vhd).
+
+**Simulation:**
+<img src="https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/img/simu_op2.png"  align="center">
 
 **Options:**
 * [Option #1:](https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/tree/main/3.%20Single%20Gates) Using a top-level module that instantiates several individual gates, each defined in separate VHDL files.
