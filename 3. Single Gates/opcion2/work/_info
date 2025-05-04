@@ -10,25 +10,25 @@ z2
 cModel Technology
 Z0 dC:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion2
 Eopcion2_full
-Z1 w1746293972
+Z1 w1746320986
 Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 24
+!i122 35
 R0
-Z5 8C:\Users\emartezorrilla\OneDrive - University of Florida\Documents\ModelSim_FPGA\3. Single Gates\opcion2\opcion2_full.vhd
-Z6 FC:\Users\emartezorrilla\OneDrive - University of Florida\Documents\ModelSim_FPGA\3. Single Gates\opcion2\opcion2_full.vhd
+Z5 8C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion3/opcion3_full.vhd
+Z6 FC:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion3/opcion3_full.vhd
 l0
 L5 1
 VbbMi:D3X]aFZ3h``C]HcN0
 !s100 lzNFBloU38`R[EIBFWYb73
 Z7 OV;C;2020.1;71
 32
-Z8 !s110 1746308697
+Z8 !s110 1746321291
 !i10b 1
-Z9 !s108 1746308697.000000
-Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\emartezorrilla\OneDrive - University of Florida\Documents\ModelSim_FPGA\3. Single Gates\opcion2\opcion2_full.vhd|
-Z11 !s107 C:\Users\emartezorrilla\OneDrive - University of Florida\Documents\ModelSim_FPGA\3. Single Gates\opcion2\opcion2_full.vhd|
+Z9 !s108 1746321291.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion3/opcion3_full.vhd|
+Z11 !s107 C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion3/opcion3_full.vhd|
 !i113 1
 Z12 o-work work -2002 -explicit
 Z13 tExplicit 1 CvgOpt 0
@@ -37,11 +37,11 @@ R2
 R3
 R4
 DEx4 work 12 opcion2_full 0 22 bbMi:D3X]aFZ3h``C]HcN0
-!i122 24
-l51
-Z14 L15 55
-V_@WNK1F43BmELaSEzM87R3
-!s100 BTAS2]da3DM0GO<fJn>hT2
+!i122 35
+l20
+L15 19
+VOCDJ6?WhDVei7;FHC@>5d1
+!s100 =zVOBRJLIAiSOT_nNeAd42
 R7
 32
 R8
@@ -53,14 +53,14 @@ R11
 R12
 R13
 Eopcion2_full_tb
-Z15 w1746308473
+Z14 w1746308473
 R2
 R3
 R4
-!i122 25
+!i122 34
 R0
-Z16 8C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion2/opcion2_full_tb.vhd
-Z17 FC:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion2/opcion2_full_tb.vhd
+Z15 8C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion2/opcion2_full_tb.vhd
+Z16 FC:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion2/opcion2_full_tb.vhd
 l0
 L5 1
 VTO_GOo4fNWjlU5J;:HJ[T2
@@ -69,7 +69,7 @@ R7
 32
 R8
 !i10b 1
-R9
+Z17 !s108 1746321290.000000
 Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion2/opcion2_full_tb.vhd|
 Z19 !s107 C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion2/opcion2_full_tb.vhd|
 !i113 1
@@ -80,41 +80,41 @@ R2
 R3
 R4
 DEx4 work 15 opcion2_full_tb 0 22 TO_GOo4fNWjlU5J;:HJ[T2
-!i122 25
+!i122 34
 l23
 Z20 L9 36
 VHg]><HL3nLfHSVC?HbBMD0
-Z21 !s100 13OJFRMHCSPd_XIHcV6=d2
+!s100 13OJFRMHCSPd_XIHcV6=d2
 R7
 32
 R8
 !i10b 1
-R9
+R17
 R18
 R19
 !i113 1
 R12
 R13
 Esingle_and
-R1
+Z21 w1746293972
 R2
 R3
 R4
-!i122 24
+!i122 33
 R0
-R5
-R6
+Z22 8C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion2/opcion2_full.vhd
+Z23 FC:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion2/opcion2_full.vhd
 l0
 L143 1
 VPoPIdPWL=N?PEjU?AcICa3
 !s100 f7;IZcTddcCLT?Xn[SM?n1
 R7
 32
-R8
+Z24 !s110 1746321290
 !i10b 1
-R9
-R10
-R11
+R17
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion2/opcion2_full.vhd|
+Z26 !s107 C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion2/opcion2_full.vhd|
 !i113 1
 R12
 R13
@@ -123,41 +123,41 @@ R2
 R3
 R4
 DEx4 work 10 single_and 0 22 PoPIdPWL=N?PEjU?AcICa3
-!i122 24
+!i122 33
 l154
 L151 9
 VUb8XkWd`FL@AfAQS;Y@@U2
 !s100 GEQLf=YHILS:WU:nZ?63c0
 R7
 32
-R8
+R24
 !i10b 1
-R9
-R10
-R11
+R17
+R25
+R26
 !i113 1
 R12
 R13
 Esingle_full
-Z22 w1746289227
+Z27 w1746289227
 R2
 R3
 R4
 !i122 16
 R0
-R5
-R6
+Z28 8C:\Users\emartezorrilla\OneDrive - University of Florida\Documents\ModelSim_FPGA\3. Single Gates\opcion2\opcion2_full.vhd
+Z29 FC:\Users\emartezorrilla\OneDrive - University of Florida\Documents\ModelSim_FPGA\3. Single Gates\opcion2\opcion2_full.vhd
 l0
 L5 1
 VL5LgaR<_cFBh6CO2N;Rl31
 !s100 83]`G16aS<:8Tl46BXb>e0
 R7
 32
-Z23 !s110 1746289446
+Z30 !s110 1746289446
 !i10b 1
-Z24 !s108 1746289446.000000
-R10
-R11
+Z31 !s108 1746289446.000000
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\emartezorrilla\OneDrive - University of Florida\Documents\ModelSim_FPGA\3. Single Gates\opcion2\opcion2_full.vhd|
+Z33 !s107 C:\Users\emartezorrilla\OneDrive - University of Florida\Documents\ModelSim_FPGA\3. Single Gates\opcion2\opcion2_full.vhd|
 !i113 1
 R12
 R13
@@ -168,39 +168,39 @@ R4
 DEx4 work 11 single_full 0 22 L5LgaR<_cFBh6CO2N;Rl31
 !i122 16
 l51
-R14
+L15 55
 V5_n=:D8BVOGPN4`ceI14d3
 !s100 JmP7F<?ZP6W4eWnMW5X6f2
 R7
 32
-R23
+R30
 !i10b 1
-R24
-R10
-R11
+R31
+R32
+R33
 !i113 1
 R12
 R13
 Esingle_full_tb
-Z25 w1746041328
+Z34 w1746041328
 R2
 R3
 R4
 !i122 22
 R0
-Z26 8C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/single_full_tb.vhd
-Z27 FC:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/single_full_tb.vhd
+Z35 8C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/single_full_tb.vhd
+Z36 FC:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/single_full_tb.vhd
 l0
 L5 1
 V3Sj3EV>Fd8F]V6a]iIW7l2
 !s100 :jdlogT2OfMk0R1konT3A0
 R7
 32
-Z28 !s110 1746308579
+Z37 !s110 1746308579
 !i10b 1
-Z29 !s108 1746308579.000000
-Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/single_full_tb.vhd|
-Z31 !s107 C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/single_full_tb.vhd|
+Z38 !s108 1746308579.000000
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/single_full_tb.vhd|
+Z40 !s107 C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/single_full_tb.vhd|
 !i113 1
 R12
 R13
@@ -216,34 +216,34 @@ VbkXjdPnhc66U0m4FB1lg[2
 !s100 :^Vcg_@?zKUXZzKCIXiMO3
 R7
 32
-R28
+R37
 !i10b 1
-R29
-R30
-R31
+R38
+R39
+R40
 !i113 1
 R12
 R13
 Esingle_nand
-R1
+R21
 R2
 R3
 R4
-!i122 24
+!i122 33
 R0
-R5
-R6
+R22
+R23
 l0
 L119 1
 VLHaEHf12b6Un[?m;XI7dS0
 !s100 bLN@XME;UdELC1BJCo:<G3
 R7
 32
-R8
+R24
 !i10b 1
-R9
-R10
-R11
+R17
+R25
+R26
 !i113 1
 R12
 R13
@@ -252,41 +252,41 @@ R2
 R3
 R4
 DEx4 work 11 single_nand 0 22 LHaEHf12b6Un[?m;XI7dS0
-!i122 24
+!i122 33
 l132
 L129 9
 VNBPjjPF=h?oUoVRE7n3[F0
 !s100 VFIid9Ifj0<6?K``lf1[z0
 R7
 32
-R8
+R24
 !i10b 1
-R9
-R10
-R11
+R17
+R25
+R26
 !i113 1
 R12
 R13
 Esingle_not
-R1
+R21
 R2
 R3
 R4
-!i122 24
+!i122 33
 R0
-R5
-R6
+R22
+R23
 l0
 L98 1
 V<^JAdoM>;IEhB0QTIV^A]3
 !s100 kf<2?KaUEj1FhXCAg`Nbj2
 R7
 32
-R8
+R24
 !i10b 1
-R9
-R10
-R11
+R17
+R25
+R26
 !i113 1
 R12
 R13
@@ -295,41 +295,41 @@ R2
 R3
 R4
 DEx4 work 10 single_not 0 22 <^JAdoM>;IEhB0QTIV^A]3
-!i122 24
+!i122 33
 l108
 L105 9
 V>fbmGjMlM_=emMMP`P7D_0
 !s100 RmkfaP37];P0nYn8lkO@A3
 R7
 32
-R8
+R24
 !i10b 1
-R9
-R10
-R11
+R17
+R25
+R26
 !i113 1
 R12
 R13
 Esingle_or
-R1
+R21
 R2
 R3
 R4
-!i122 24
+!i122 33
 R0
-R5
-R6
+R22
+R23
 l0
 L75 1
 VjHdcLeKzDaYMm[Qm4VT]a3
 !s100 zLDfL088nVGQc_3LZjMb>1
 R7
 32
-R8
+R24
 !i10b 1
-R9
-R10
-R11
+R17
+R25
+R26
 !i113 1
 R12
 R13
@@ -338,40 +338,83 @@ R2
 R3
 R4
 DEx4 work 9 single_or 0 22 jHdcLeKzDaYMm[Qm4VT]a3
-!i122 24
+!i122 33
 l86
 L83 9
 Vge2n4<kjc[@ZZUaS<61o=2
 !s100 MWQfKXKH^bM@D>K0=JXZO3
 R7
 32
+R24
+!i10b 1
+R17
+R25
+R26
+!i113 1
+R12
+R13
+Etb_opcion2_full
+Z41 w1746321196
+R2
+R3
+R4
+!i122 36
+R0
+Z42 8C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion3/opcion3_full_tb.vhd
+Z43 FC:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion3/opcion3_full_tb.vhd
+l0
+L5 1
+VE<WG<QWOnC>=hK14d8Ek92
+!s100 O3iFjal9EfI^NzJgJAXfO2
+R7
+32
 R8
 !i10b 1
 R9
-R10
-R11
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion3/opcion3_full_tb.vhd|
+Z45 !s107 C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion3/opcion3_full_tb.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+Z46 DEx4 work 15 tb_opcion2_full 0 22 E<WG<QWOnC>=hK14d8Ek92
+!i122 36
+l22
+Z47 L8 34
+Z48 V^dXVod5^c^jjW0P[aY7dd3
+Z49 !s100 cfGilhRSeQzVRmGPdPLJT1
+R7
+32
+R8
+!i10b 1
+R9
+R44
+R45
 !i113 1
 R12
 R13
 Etest_or
-Z32 w1746232881
+Z50 w1746232881
 R3
 R4
 !i122 5
 R0
-Z33 8C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion2/test_or.vhd
-Z34 FC:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion2/test_or.vhd
+Z51 8C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion2/test_or.vhd
+Z52 FC:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion2/test_or.vhd
 l0
 L4 1
 VH00zGdOa5O@DAMMRWM9j@0
 !s100 3df7nk=5S>HWO_OL`[7Cn2
 R7
 32
-Z35 !s110 1746232944
+Z53 !s110 1746232944
 !i10b 1
-Z36 !s108 1746232944.000000
-Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion2/test_or.vhd|
-Z38 !s107 C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion2/test_or.vhd|
+Z54 !s108 1746232944.000000
+Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion2/test_or.vhd|
+Z56 !s107 C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion2/test_or.vhd|
 !i113 1
 R12
 R13
@@ -386,11 +429,11 @@ V_34``c8AILzJaW_1?LF@43
 !s100 5_ULY15[1bg^h?>SU0ca31
 R7
 32
-R35
+R53
 !i10b 1
-R36
-R37
-R38
+R54
+R55
+R56
 !i113 1
 R12
 R13
