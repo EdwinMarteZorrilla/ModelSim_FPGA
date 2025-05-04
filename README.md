@@ -24,9 +24,13 @@ The following diagram represents the custom combinational logic circuit I design
 
 From there My approach was to implement and simulate the circtuit in different ways to better understand how vhdl files are sturcture.
 
+**Options:**
 * [Option #1:](https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/tree/main/3.%20Single%20Gates) Using a top-level module that instantiates several individual gates, each defined in separate VHDL files.
 * [Option #2:](https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/3.%20Single%20Gates/opcion2) Creating components and instantiating them within the same VHDL file.
-* Option #3: Implementing the design in a single VHDL file using a behavioral architecture based on a truth table.
-* Option #4: Implementing the design in a single VHDL file using a behavioral architecture derived from the logic equation.
+* [Option #3:](https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/3.%20Single%20Gates/opcion3) Implementing the design in a single VHDL file using a behavioral architecture derived from the logic equation.
+* Option #4: Implementing the design in a single VHDL file using a behavioral architecture based on a truth table.
+
+
+
 
 
