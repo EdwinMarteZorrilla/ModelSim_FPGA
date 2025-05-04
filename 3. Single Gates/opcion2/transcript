@@ -20,3 +20,239 @@
 # Compile of opcion3_full_tb.vhd was successful.
 # Compile of opcion4_full.vhd was successful.
 # 5 compiles, 0 failed with no errors.
+# Compile of opcion2_full.vhd was successful.
+# Compile of opcion2_full_tb.vhd was successful.
+# Compile of opcion3_full.vhd was successful.
+# Compile of opcion3_full_tb.vhd was successful.
+# Compile of opcion4_full.vhd was successful.
+# Compile of led_blink.vhd was successful.
+# Compile of led_blink_tb.vhd failed with 1 errors.
+# 7 compiles, 1 failed with 1 error.
+# Compile of opcion2_full.vhd was successful.
+# Compile of opcion2_full_tb.vhd was successful.
+# Compile of opcion3_full.vhd was successful.
+# Compile of opcion3_full_tb.vhd was successful.
+# Compile of opcion4_full.vhd was successful.
+# Compile of led_blink.vhd was successful.
+# Compile of led_blink_tb.vhd failed with 1 errors.
+# 7 compiles, 1 failed with 1 error.
+# Compile of opcion2_full.vhd was successful.
+# Compile of opcion2_full_tb.vhd was successful.
+# Compile of opcion3_full.vhd was successful.
+# Compile of opcion3_full_tb.vhd was successful.
+# Compile of opcion4_full.vhd was successful.
+# Compile of led_blink.vhd was successful.
+# Compile of led_blink_tb.vhd failed with 1 errors.
+# 7 compiles, 1 failed with 1 error.
+# Compile of opcion2_full.vhd was successful.
+# Compile of opcion2_full_tb.vhd was successful.
+# Compile of opcion3_full.vhd was successful.
+# Compile of opcion3_full_tb.vhd was successful.
+# Compile of opcion4_full.vhd was successful.
+# Compile of led_blink.vhd was successful.
+# Compile of led_blink_tb.vhd failed with 1 errors.
+# 7 compiles, 1 failed with 1 error.
+# Compile of opcion2_full.vhd was successful.
+# Compile of opcion2_full_tb.vhd was successful.
+# Compile of opcion3_full.vhd was successful.
+# Compile of opcion3_full_tb.vhd was successful.
+# Compile of opcion4_full.vhd was successful.
+# Compile of led_blink.vhd was successful.
+# Compile of led_blink_tb.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.led_blink_tb
+# vsim -gui work.led_blink_tb 
+# Start time: 10:59:31 on May 04,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.led_blink_tb(behavioral)
+# Loading work.led_blink(behavioral)
+add wave -position end  sim:/led_blink_tb/clk_tb
+add wave -position end  sim:/led_blink_tb/led_tb
+add wave -position end  sim:/led_blink_tb/CLK_PERIOD
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: emartezorrilla  Hostname: EED-PW09QMW8  ProcessID: 55108
+#           Attempting to use alternate WLF file "./wlftifz7cm".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftifz7cm
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 11:07:36 on May 04,2025, Elapsed time: 0:08:05
+# Errors: 0, Warnings: 17
+# Compile of opcion2_full.vhd was successful.
+# Compile of opcion2_full_tb.vhd was successful.
+# Compile of opcion3_full.vhd was successful.
+# Compile of opcion3_full_tb.vhd was successful.
+# Compile of opcion4_full.vhd was successful.
+# Compile of led_blink.vhd was successful.
+# Compile of led_blink_tb.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+# Compile of opcion2_full.vhd was successful.
+# Compile of opcion2_full_tb.vhd was successful.
+# Compile of opcion3_full.vhd was successful.
+# Compile of opcion3_full_tb.vhd was successful.
+# Compile of opcion4_full.vhd was successful.
+# Compile of led_blink.vhd was successful.
+# Compile of led_blink_tb.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+# Compile of opcion2_full.vhd was successful.
+# Compile of opcion2_full_tb.vhd was successful.
+# Compile of opcion3_full.vhd was successful.
+# Compile of opcion3_full_tb.vhd was successful.
+# Compile of opcion4_full.vhd was successful.
+# Compile of led_blink.vhd was successful.
+# Compile of led_blink_tb.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.led_blink_tb
+# vsim -gui work.led_blink_tb 
+# Start time: 11:08:54 on May 04,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.led_blink_tb(behavioral)
+# Loading work.led_blink(behavioral)
+run
+add wave -position end  sim:/led_blink_tb/clk_tb
+add wave -position end  sim:/led_blink_tb/led_tb
+add wave -position end  sim:/led_blink_tb/CLK_PERIOD
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: emartezorrilla  Hostname: EED-PW09QMW8  ProcessID: 55108
+#           Attempting to use alternate WLF file "./wlft6s0kar".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft6s0kar
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 11:10:57 on May 04,2025, Elapsed time: 0:02:03
+# Errors: 0, Warnings: 6
+# Compile of opcion2_full.vhd was successful.
+# Compile of opcion2_full_tb.vhd was successful.
+# Compile of opcion3_full.vhd was successful.
+# Compile of opcion3_full_tb.vhd was successful.
+# Compile of opcion4_full.vhd was successful.
+# Compile of led_blink.vhd was successful.
+# Compile of led_blink_tb.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.led_blink_tb
+# vsim -gui work.led_blink_tb 
+# Start time: 11:11:17 on May 04,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.led_blink_tb(behavioral)
+# Loading work.led_blink(behavioral)
+add wave -position end  sim:/led_blink_tb/clk_tb
+add wave -position end  sim:/led_blink_tb/led_tb
+add wave -position end  sim:/led_blink_tb/CLK_PERIOD
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: emartezorrilla  Hostname: EED-PW09QMW8  ProcessID: 55108
+#           Attempting to use alternate WLF file "./wlfta94d9q".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfta94d9q
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 11:17:30 on May 04,2025, Elapsed time: 0:06:13
+# Errors: 0, Warnings: 4
+# Compile of opcion2_full.vhd was successful.
+# Compile of opcion2_full_tb.vhd was successful.
+# Compile of opcion3_full.vhd was successful.
+# Compile of opcion3_full_tb.vhd was successful.
+# Compile of opcion4_full.vhd was successful.
+# Compile of led_blink.vhd was successful.
+# Compile of led_blink_tb.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.led_blink_tb
+# vsim -gui work.led_blink_tb 
+# Start time: 11:21:24 on May 04,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.led_blink_tb(behavioral)
+# Loading work.led_blink(behavioral)
+add wave -position end  sim:/led_blink_tb/clk_tb
+add wave -position end  sim:/led_blink_tb/led_tb
+add wave -position end  sim:/led_blink_tb/CLK_PERIOD
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: emartezorrilla  Hostname: EED-PW09QMW8  ProcessID: 55108
+#           Attempting to use alternate WLF file "./wlftqv5bjs".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftqv5bjs
+run
+run
+run
+run
+run
+run
+run
