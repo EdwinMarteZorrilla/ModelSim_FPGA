@@ -1,63 +1,66 @@
 # Option #2: 
 > [!IMPORTANT]
-> This option is similar to Option 1, using the same top-level module and port mapping; however, the key difference is that the individual components are defined within the same file rather than in separate files.
+> This option is similar to Option 2 but instead of using components here we are using the equations directly.
 <img src="https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/img/circuit.jpg" width=35% height=35%  align="center">
-<img src="https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/img/opcion2.jpg" width=35% height=35%  align="center">
 
 ##  File Structure
 
 > * Top Entity Definition
 > * Top Arquitecture  Definition
->   - Components Defintiion
->       - And, Or, Nand, Not
 >   - Signals Definitions
->   - Port Mapping
+>   - Equations
 >   - Other Signal updates
-> * Individual Entities
->    - Indvidual Arquitecture for each component
 
     
 > [!NOTE]
-> **VHDL Files:** The only difference that I have to made between the opcion 1 the full implementation
-> with different files and all integrated is that now I had to define the individual entitities for each one, the previous code
-> remain the same. Also I had to include wich libraires were used before each entity if not I would recieve an error.
+> **VHDL Files:** the code for the main module is shown below and the test bech basically is the same as per other options.
 
-**See the example below:**
+**See the code below:**
 ```
-
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use ieee.numeric_std.all;
 
-entity single_not is
+entity opcion2_full is
     Port ( 
-        A  : in std_logic;
-        Y  : out STD_LOGIC
+    sw : in STD_LOGIC_VECTOR (3 downto 0);        
+        --SW(1)  : in STD_LOGIC;
+		--C1  : in STD_LOGIC;
+        led  : out STD_LOGIC_VECTOR(3 downto 0)
+		--led(1)  : out STD_LOGIC
     );
-end single_not;
+end opcion2_full;
 
-architecture Bev_not of single_not is
+architecture Behavioral of opcion2_full is
 
+
+signal   A1, A2, A3, A4 : STD_LOGIC ;         
+
+begin 
+
+	  A1 <=  sw(0) NAND sw(1);
+	  A2 <= sw(2) AND A1;
+	  A3 <= NOT A2;
+	  A4 <= NOT sw(3);
+	  
+	  led(2) <= A3  OR A4;
+	  led(0) <= A1;
+	  led(1) <= A3;
+	  led(3) <= A4;
+  
     
-begin
+end Behavioral;
 
-    Y <= not A;
-
-    
-end Bev_not;
 ```
 
-* [opcion2_Full.vhd](https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/3.%20Single%20Gates/opcion2/opcion2_full.vhd).
-* [opcion2_Full_tb.vhd](https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/3.%20Single%20Gates/opcion2/opcion2_full_tb.vhd).
-
-**Simulation:**
-<img src="https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/img/simu_op2.png"  align="center">
+* [opcion3_Full.vhd](https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/3.%20Single%20Gates/opcion2/opcion3_full.vhd).
+* [opcion3_Full_tb.vhd](https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/3.%20Single%20Gates/opcion2/opcion3_full_tb.vhd).
 
 **Options:**
 * [Option #1:](https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/tree/main/3.%20Single%20Gates) Using a top-level module that instantiates several individual gates, each defined in separate VHDL files.
 * [Option #2:](https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/3.%20Single%20Gates/opcion2) Creating components and instantiating them within the same VHDL file.
-* Option #3: Implementing the design in a single VHDL file using a behavioral architecture based on a truth table.
-* Option #4: Implementing the design in a single VHDL file using a behavioral architecture derived from the logic equation.
+* [Option #3:](https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/3.%20Single%20Gates/opcion2) Implementing the design in a single VHDL file using a behavioral architecture derived from the logic equation.
+* Option #4: Implementing the design in a single VHDL file using a behavioral architecture based on a truth table.
 
 
 
