@@ -1,0 +1,42 @@
+{C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion2/opcion2_full_tb.vhd} {2 {vcom -work work -2002 -stats=none {C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion2/opcion2_full_tb.vhd}
+** Warning: (vcom-14) Failed to open "C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion2/test.mpf" specified by the MODELSIM environment variable.
+No such file or directory. (errno = ENOENT)
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity opcion2_full_tb
+-- Compiling architecture Behavioral of opcion2_full_tb
+
+} {} {}} {C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion2/opcion2_full.vhd} {2 {vcom -work work -2002 -explicit -stats=none {C:\Users\emartezorrilla\OneDrive - University of Florida\Documents\ModelSim_FPGA\3. Single Gates\opcion2\opcion2_full.vhd}
+** Warning: (vcom-14) Failed to open "C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion2/test.mpf" specified by the MODELSIM environment variable.
+No such file or directory. (errno = ENOENT)
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity opcion2_full
+-- Compiling architecture Behavioral of opcion2_full
+-- Compiling entity single_or
+-- Compiling architecture Bev_or of single_or
+-- Compiling entity single_not
+-- Compiling architecture Bev_not of single_not
+-- Compiling entity single_nand
+-- Compiling architecture Bev_nand of single_nand
+-- Compiling entity single_and
+-- Compiling architecture Bev_and of single_and
+
+} {} {}} {C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/single_full_tb.vhd} {2 {vcom -work work -2002 -explicit -stats=none {C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/single_full_tb.vhd}
+** Warning: (vcom-14) Failed to open "C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion2/test.mpf" specified by the MODELSIM environment variable.
+No such file or directory. (errno = ENOENT)
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity single_full_tb
+-- Compiling architecture Behavioral of single_full_tb
+
+} {} {}}

@@ -1,0 +1,35 @@
+# Compile of led_blink.vhd was successful.
+# Compile of led_blink_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_led_blink
+# vsim -gui work.tb_led_blink 
+# Start time: 11:52:48 on May 04,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_led_blink(behavioral)
+# Loading work.led_blink(behavioral)
+add wave -position insertpoint  \
+sim:/tb_led_blink/clk \
+sim:/tb_led_blink/led
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run -continue
+run
+run
+run
+run
+run
+run

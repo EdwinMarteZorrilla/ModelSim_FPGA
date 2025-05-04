@@ -1,0 +1,97 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/3. Single Gates/opcion2
+Eled_blink
+Z0 w1746371241
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+Z4 dC:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/5. Led_blink
+Z5 8C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/5. Led_blink/led_blink.vhd
+Z6 FC:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/5. Led_blink/led_blink.vhd
+l0
+L5 1
+VLJ6:EcmBGh0J>8X?E3B?S3
+!s100 gc2RAH6KMokL@4Ci:e6WG0
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1746373956
+!i10b 1
+Z9 !s108 1746373956.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/5. Led_blink/led_blink.vhd|
+Z11 !s107 C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/5. Led_blink/led_blink.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+R3
+Z14 DEx4 work 9 led_blink 0 22 LJ6:EcmBGh0J>8X?E3B?S3
+!i122 0
+l22
+L15 34
+VjjcRD1nlBak7BS[15@5j62
+!s100 cd^53PTmADnPl55PzRn2<2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Etb_led_blink
+Z15 w1746373641
+R2
+R3
+!i122 1
+R4
+Z16 8C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/5. Led_blink/led_blink_tb.vhd
+Z17 FC:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/5. Led_blink/led_blink_tb.vhd
+l0
+L4 1
+VI<TIUGC>e>MOUk3Al:Ta<3
+!s100 hmkPQWQMOmg@eX6K8<QJa0
+R7
+32
+R8
+!i10b 1
+R9
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/5. Led_blink/led_blink_tb.vhd|
+!s107 C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/5. Led_blink/led_blink_tb.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R14
+R2
+R3
+DEx4 work 12 tb_led_blink 0 22 I<TIUGC>e>MOUk3Al:Ta<3
+!i122 1
+l15
+L7 33
+V;0mA;<1CiVcR2iZUdnSOR1
+!s100 8Gf2T:Z:=9;nO]3maP`cX1
+R7
+32
+R8
+!i10b 1
+R9
+R18
+Z19 !s107 C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/5. Led_blink/led_blink_tb.vhd|
+!i113 1
+R12
+R13
