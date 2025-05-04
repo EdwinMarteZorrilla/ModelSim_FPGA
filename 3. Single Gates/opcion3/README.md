@@ -1,4 +1,4 @@
-# Option #2: 
+# Option #3: 
 > [!IMPORTANT]
 > This option is similar to Option 2 but instead of using components here we are using the equations directly.
 <img src="https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/img/circuit.jpg" width=35% height=35%  align="center">
