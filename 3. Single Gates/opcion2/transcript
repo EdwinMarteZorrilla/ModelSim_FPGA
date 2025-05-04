@@ -256,3 +256,42 @@ run
 run
 run
 run
+quit -sim
+# End time: 11:47:43 on May 04,2025, Elapsed time: 0:26:19
+# Errors: 0, Warnings: 4
+# Compile of opcion2_full.vhd was successful.
+# Compile of opcion2_full_tb.vhd was successful.
+# Compile of opcion3_full.vhd was successful.
+# Compile of opcion3_full_tb.vhd was successful.
+# Compile of opcion4_full.vhd was successful.
+# Compile of led_blink.vhd was successful.
+# Compile of led_blink_tb.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.led_blink_tb
+# vsim -gui work.led_blink_tb 
+# Start time: 11:48:02 on May 04,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.led_blink_tb(behavioral)
+# Loading work.led_blink(behavioral)
+add wave -position end  sim:/led_blink_tb/clk_tb
+add wave -position end  sim:/led_blink_tb/led_tb
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: emartezorrilla  Hostname: EED-PW09QMW8  ProcessID: 55108
+#           Attempting to use alternate WLF file "./wlftn7kzng".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftn7kzng
+add wave -position end  sim:/led_blink_tb/CLK_PERIOD
+run
+run
+run
+run
+run
+run
+run
+run -all
+quit -sim
+# End time: 11:51:58 on May 04,2025, Elapsed time: 0:03:56
+# Errors: 0, Warnings: 4

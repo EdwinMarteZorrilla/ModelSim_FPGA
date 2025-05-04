@@ -10,14 +10,14 @@ architecture Behavioral of tb_led_blink is
     signal led : STD_LOGIC_VECTOR(3 downto 0);
 
     -- Clock generation process: 10 ns period (100 MHz)
-    constant clk_period : time := 10 ns;
+    constant clk_period : time := 1 ns;
 
 begin
 
     -- Instantiate the DUT
     uut: entity work.led_blink
         generic map (
-            MAX_COUNT_VAL => 10   -- Faster simulation
+            MAX_COUNT_VAL => 11   -- Faster simulation
         )
         port map (
             clk => clk,
