@@ -31,3 +31,38 @@ From there My approach was to implement and simulate the circtuit in different w
 * [Option #4:](https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/3.%20Single%20Gates/opcion4) Implementing the design in a single VHDL file using a behavioral architecture based on a truth table.
 * [Led Blink:](https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/tree/main/5.%20Led_blink) Toggle each 0.5 secs.
 
+**Future Projects** (from https://www.fpga4student.com/p/vhdl-project.html)
+
+1. What is an FPGA? How VHDL works on FPGA
+2. VHDL code for FIFO memory
+3. VHDL code for FIR Filter
+4. VHDL code for 8-bit Microcontroller
+5. VHDL code for Matrix Multiplication 
+6. VHDL code for Switch Tail Ring Counter
+7. VHDL code for digital alarm clock on FPGA
+8. VHDL code for 8-bit Comparator
+9. How to load a text file into FPGA using VHDL
+10. VHDL code for D Flip Flop
+11. VHDL code for Full Adder
+12. PWM Generator in VHDL with Variable Duty Cycle
+13. VHDL code for counters with testbench
+14. VHDL code for ALU
+15. 16-bit ALU Design in VHDL using Verilog N-bit Adder
+16. Shifter Design in VHDL
+17. Non-linear Lookup Table Implementation in VHDL
+18. Cryptographic Coprocessor Design in VHDL
+19. Verilog vs VHDL: Explain by Examples
+20. VHDL code for clock divider
+21. How to generate a clock enable signal instead of creating another clock domain
+22. VHDL code for debouncing buttons on FPGA
+23. VHDL code for Traffic light controller
+24. VHDL code for a simple 2-bit comparator
+25. VHDL code for a single-port RAM
+26. Car Parking System in VHDL using Finite State Machine (FSM)
+27. VHDL coding vs Software Programming
+28. VHDL code for MIPS Processor
+29. Full VHDL code for Sequence Detector using Moore FSM
+30. VHDL code for Seven-Segment Display on Basys 3 FPGA
+31. VHDL code for Ov7670 Camera on Basys 3 FPGA
+32. How to Read Image into FPGA using VHDL
+
