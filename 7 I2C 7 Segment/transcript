@@ -1,0 +1,837 @@
+# Compile of shiftingonly.vhd failed with 1 errors.
+# Compile of shiftingonly_tb.vhd was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of shiftingonly.vhd was successful.
+# Compile of shiftingonly_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.shiftregisterserial_tb
+# vsim -gui work.shiftregisterserial_tb 
+# Start time: 21:00:45 on May 14,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.shiftregisterserial_tb(behavior)
+# Loading work.shiftregisterserial(behavioral)
+add wave -position end  sim:/shiftregisterserial_tb/clk
+add wave -position end  sim:/shiftregisterserial_tb/reset
+add wave -position end  sim:/shiftregisterserial_tb/load
+add wave -position end  sim:/shiftregisterserial_tb/data
+add wave -position end  sim:/shiftregisterserial_tb/dio
+add wave -position end  sim:/shiftregisterserial_tb/clk_out
+add wave -position end  sim:/shiftregisterserial_tb/done
+add wave -position end  sim:/shiftregisterserial_tb/clk_period
+run
+run
+run
+run
+run -continue
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of shiftingonly.vhd was successful.
+# Compile of shiftingonly_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+quit -sim
+# End time: 21:04:01 on May 14,2025, Elapsed time: 0:03:16
+# Errors: 0, Warnings: 7
+# Compile of shiftingonly.vhd was successful.
+# Compile of shiftingonly_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.shiftregisterserial_tb
+# vsim -gui work.shiftregisterserial_tb 
+# Start time: 21:04:31 on May 14,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.shiftregisterserial_tb(behavior)
+# Loading work.shiftregisterserial(behavioral)
+add wave -position end sim:/shiftregisterserial_tb/*
+run
+run
+run
+run
+run
+quit -sim
+# End time: 21:09:58 on May 14,2025, Elapsed time: 0:05:27
+# Errors: 0, Warnings: 2
+# Compile of shiftingonly.vhd was successful.
+# Compile of shiftingonly_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.shiftregisterserial_tb
+# vsim -gui work.shiftregisterserial_tb 
+# Start time: 21:10:26 on May 14,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.shiftregisterserial_tb(behavior)
+# Loading work.shiftregisterserial(behavioral)
+add wave -position end sim:/shiftregisterserial_tb/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run -all
+quit -sim
+# End time: 21:13:14 on May 14,2025, Elapsed time: 0:02:48
+# Errors: 0, Warnings: 2
+# Compile of shiftingonly.vhd was successful.
+# Compile of shiftingonly_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.shiftregisterserial_tb
+# vsim -gui work.shiftregisterserial_tb 
+# Start time: 21:13:49 on May 14,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.shiftregisterserial_tb(behavior)
+# Loading work.shiftregisterserial(behavioral)
+add wave -position end sim:/shiftregisterserial_tb/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 21:21:34 on May 14,2025, Elapsed time: 0:07:45
+# Errors: 0, Warnings: 2
+# Compile of shiftingonly.vhd was successful.
+# Compile of shiftingonly_tb.vhd failed with 8 errors.
+# 2 compiles, 1 failed with 8 errors.
+# Compile of shiftingonly.vhd was successful.
+# Compile of shiftingonly_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.shiftregisterserial_tb
+# vsim -gui work.shiftregisterserial_tb 
+# Start time: 21:22:40 on May 14,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.shiftregisterserial_tb(behavior)
+# Loading work.shiftregisterserial(behavioral)
+add wave -position end sim:/shiftregisterserial_tb/*
+run
+# ** Note: LOAD asserted. Data = x"CA" (11001010)
+#    Time: 4 ns  Iteration: 0  Instance: /shiftregisterserial_tb
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 21:24:33 on May 14,2025, Elapsed time: 0:01:53
+# Errors: 0, Warnings: 3
+# Compile of shiftingonly.vhd was successful.
+# Compile of shiftingonly_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.shiftregisterserial_tb
+# vsim -gui work.shiftregisterserial_tb 
+# Start time: 21:24:47 on May 14,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.shiftregisterserial_tb(behavior)
+# Loading work.shiftregisterserial(behavioral)
+add wave -position end sim:/shiftregisterserial_tb/*
+run
+# ** Note: LOAD asserted. Data = x"CA" (11001010)
+#    Time: 4 ns  Iteration: 0  Instance: /shiftregisterserial_tb
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 21:30:52 on May 14,2025, Elapsed time: 0:06:05
+# Errors: 0, Warnings: 2
+# Compile of shiftingonly.vhd was successful.
+# Compile of shiftingonly_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.shiftregisterserial_tb
+# vsim -gui work.shiftregisterserial_tb 
+# Start time: 21:31:06 on May 14,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.shiftregisterserial_tb(behavior)
+# Loading work.shiftregisterserial(behavioral)
+run
+# ** Note: LOAD asserted. Data = x"CA" (11001010)
+#    Time: 4 ns  Iteration: 0  Instance: /shiftregisterserial_tb
+add wave -position end sim:/shiftregisterserial_tb/*
+run
+run
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# ** Note: LOAD asserted. Data = x"CA" (11001010)
+#    Time: 4 ns  Iteration: 0  Instance: /shiftregisterserial_tb
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run -continue
+run -continue
+run -continue
+run -continue
+run -continue
+run -continue
+run -continue
+run -continue
+run -continue
+run -continue
+run -continue
+run -continue
+run -continue
+run -continue
+run -continue
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 21:35:59 on May 14,2025, Elapsed time: 0:04:53
+# Errors: 0, Warnings: 1
+# Compile of shiftingonly.vhd was successful.
+# Compile of shiftingonly_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.shiftregisterserial_tb
+# vsim -gui work.shiftregisterserial_tb 
+# Start time: 21:36:15 on May 14,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.shiftregisterserial_tb(behavior)
+# Loading work.shiftregisterserial(behavioral)
+add wave -position end sim:/shiftregisterserial_tb/*
+run
+# ** Note: LOAD asserted. Data = x"CA" (11001010)
+#    Time: 4 ns  Iteration: 0  Instance: /shiftregisterserial_tb
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 21:49:24 on May 14,2025, Elapsed time: 0:13:09
+# Errors: 0, Warnings: 2
+# Compile of shiftingonly.vhd failed with 6 errors.
+# Compile of shiftingonly_tb.vhd was successful.
+# 2 compiles, 1 failed with 6 errors.
+# Compile of shiftingonly.vhd was successful.
+# Compile of shiftingonly_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.shiftregisterserial_tb
+# vsim -gui work.shiftregisterserial_tb 
+# Start time: 22:06:18 on May 14,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.shiftregisterserial_tb(behavior)
+# Loading work.shiftregisterserial(behavioral)
+add wave -position end sim:/shiftregisterserial_tb/*
+run
+# ** Note: LOAD asserted. Data = x"CA" (11001010)
+#    Time: 4 ns  Iteration: 0  Instance: /shiftregisterserial_tb
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Note: DONE received. LOAD deasserted.
+#    Time: 3350 ns  Iteration: 3  Instance: /shiftregisterserial_tb
+# ** Note: Testbench finished.
+#    Time: 3350 ns  Iteration: 3  Instance: /shiftregisterserial_tb
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 22:09:10 on May 14,2025, Elapsed time: 0:02:52
+# Errors: 0, Warnings: 3
+# Compile of shiftingonly.vhd was successful.
+# Compile of shiftingonly_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.shiftregisterserial_tb
+# vsim -gui work.shiftregisterserial_tb 
+# Start time: 22:09:29 on May 14,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.shiftregisterserial_tb(behavior)
+# Loading work.shiftregisterserial(behavioral)
+add wave -position end sim:/shiftregisterserial_tb/*
+run
+# ** Note: LOAD asserted. Data = x"CA" (11001010)
+#    Time: 4 ns  Iteration: 0  Instance: /shiftregisterserial_tb
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Note: DONE received. LOAD deasserted.
+#    Time: 3350 ns  Iteration: 3  Instance: /shiftregisterserial_tb
+# ** Note: Testbench finished.
+#    Time: 3350 ns  Iteration: 3  Instance: /shiftregisterserial_tb
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 22:12:07 on May 14,2025, Elapsed time: 0:02:38
+# Errors: 0, Warnings: 2
+# Compile of shiftingonly.vhd was successful.
+# Compile of shiftingonly_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.shiftregisterserial_tb
+# vsim -gui work.shiftregisterserial_tb 
+# Start time: 22:12:29 on May 14,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.shiftregisterserial_tb(behavior)
+# Loading work.shiftregisterserial(behavioral)
+add wave -position end sim:/shiftregisterserial_tb/*
+run
+# ** Note: LOAD asserted. Data = x"CA" (11001010)
+#    Time: 4 ns  Iteration: 0  Instance: /shiftregisterserial_tb
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Note: DONE received. LOAD deasserted.
+#    Time: 3350 ns  Iteration: 3  Instance: /shiftregisterserial_tb
+# ** Note: Testbench finished.
+#    Time: 3350 ns  Iteration: 3  Instance: /shiftregisterserial_tb
+run
+run
+run
+quit -sim
+# End time: 22:15:45 on May 14,2025, Elapsed time: 0:03:16
+# Errors: 0, Warnings: 2
+# Compile of shiftingonly.vhd was successful.
+# Compile of shiftingonly_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.shiftregisterserial_tb
+# vsim -gui work.shiftregisterserial_tb 
+# Start time: 22:16:06 on May 14,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.shiftregisterserial_tb(behavior)
+# Loading work.shiftregisterserial(behavioral)
+add wave -position end sim:/shiftregisterserial_tb/*
+run
+# ** Note: LOAD asserted. Data = x"CA" (11001010)
+#    Time: 4 ns  Iteration: 0  Instance: /shiftregisterserial_tb
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Note: DONE received. LOAD deasserted.
+#    Time: 3350 ns  Iteration: 3  Instance: /shiftregisterserial_tb
+# ** Note: Testbench finished.
+#    Time: 3350 ns  Iteration: 3  Instance: /shiftregisterserial_tb
+run
+run
+run
