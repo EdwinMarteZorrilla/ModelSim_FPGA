@@ -11,6 +11,8 @@ First, I tried several things, but since I didn't remember everything, I had to 
 
 **Experiment 2:** This is still a work in progress. I’ve started developing a communication protocol between the Arduino and the FPGA, allowing the Arduino to relay information from the PC to the FPGA. The main idea is to enable a PC program to send commands that the FPGA can execute. For example, sending the command 01 followed by two data bytes would instruct the FPGA to add the values and return the result. [The relevant files are included](https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/tree/main/2.%20FPGA_BasicMath_Shield), but again, this is an ongoing project and not yet complete.
 
+**Experiment 4:** This isn't an experiment per se, but rather a reproduction of Professor Stitt's GitHub tutorial, which can be found [here](https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/tree/main/4.%20vhdl-tutorial-UF)  as a reference.
+
 
 
 **Options:**
