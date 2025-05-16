@@ -61,6 +61,8 @@ See that PC and PB were defined. PB and PC are ports for the ARAD board. PC I am
 
 For this implementation, I designed a finite state machine (FSM) to manage the traffic light states, and I reused the timing mechanism developed in Experiment 5 to control state transitions with precise delays FSM Traffic Light Files and Implementation.
 
+[![Video Title](https://img.youtube.com/vi/EepTHyhbnfA/0.jpg)](https://youtu.be/EepTHyhbnfA)
+
 <ins>**Code:**</ins>
 > [!NOTE]
 >See the line: MAX_COUNT_VAL : integer := 50000000  -- default: 0.5s at 100 MHz. If no max values is passed the system assumes a 100MHZ clk.
