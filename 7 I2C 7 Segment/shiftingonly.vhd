@@ -26,8 +26,15 @@ architecture Behavioral of ShiftRegisterSerial is
 	signal shift_in_progress : STD_LOGIC := '0';
 
     --constant CLK_FREQ      : INTEGER := 10000000;      -- 10 MHz
-	constant CLK_FREQ      : INTEGER := 10;      -- 10 MHz
+	-- For Simulation
+	constant CLK_FREQ      : INTEGER := 10;      -- 10 MHz   
     constant CLK_DIV_COUNT : INTEGER := CLK_FREQ / 5; -- 100 us
+	
+	--For deployment
+	--constant CLK_FREQ      : INTEGER := 100000000;      -- 10 MHz--   
+    --constant CLK_DIV_COUNT : INTEGER := CLK_FREQ / 100; -- 1 us
+	
+	
 begin
 
     -- Clock divider: generates clk_tick every 100 us

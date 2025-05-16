@@ -9,26 +9,26 @@ z2
 !i10f 100
 cModel Technology
 dC:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/5. Led_blink
-Eshiftregisterserial
-Z0 w1747275336
+Efsm_top
+Z0 w1747352245
 Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 30
+!i122 34
 Z4 dC:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/7 I2C 7 Segment
-Z5 8C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/7 I2C 7 Segment/shiftingonly.vhd
-Z6 FC:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/7 I2C 7 Segment/shiftingonly.vhd
+Z5 8C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/7 I2C 7 Segment/fsm_top.vhd
+Z6 FC:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/7 I2C 7 Segment/fsm_top.vhd
 l0
 L5 1
-V64Hl=Lk0oCoTId:D]e8P[2
-!s100 iga7k`826Cm5ZA2MP21:T1
+VBLlA;dZEO9SQVc=d@dlB[2
+!s100 YVHZP1o8`Y[2H^:I<AF<b0
 Z7 OV;C;2020.1;71
 32
-Z8 !s110 1747275350
+Z8 !s110 1747352423
 !i10b 1
-Z9 !s108 1747275350.000000
-Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/7 I2C 7 Segment/shiftingonly.vhd|
-Z11 !s107 C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/7 I2C 7 Segment/shiftingonly.vhd|
+Z9 !s108 1747352422.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/7 I2C 7 Segment/fsm_top.vhd|
+Z11 !s107 C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/7 I2C 7 Segment/fsm_top.vhd|
 !i113 1
 Z12 o-work work -2002 -explicit
 Z13 tExplicit 1 CvgOpt 0
@@ -36,12 +36,12 @@ Abehavioral
 R1
 R2
 R3
-DEx4 work 19 shiftregisterserial 0 22 64Hl=Lk0oCoTId:D]e8P[2
-!i122 30
-l31
-L17 78
-V[97fTWE1i]X9<dWk084@j0
-!s100 <B3L8PoGOXPPEE=]H[Q3k1
+DEx4 work 7 fsm_top 0 22 BLlA;dZEO9SQVc=d@dlB[2
+!i122 34
+l41
+L14 159
+Vfn9D@Y`ZWYoii;1P2=R4H3
+!s100 KSLoP:EMNFka20bh84JEf1
 R7
 32
 R8
@@ -52,26 +52,26 @@ R11
 !i113 1
 R12
 R13
-Eshiftregisterserial_tb
-Z14 w1747272376
+Efsm_top_tb
+Z14 w1747352287
 R1
 R2
 R3
-!i122 31
+!i122 35
 R4
-Z15 8C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/7 I2C 7 Segment/shiftingonly_tb.vhd
-Z16 FC:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/7 I2C 7 Segment/shiftingonly_tb.vhd
+Z15 8C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/7 I2C 7 Segment/fsm_top_tb.vhd
+Z16 FC:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/7 I2C 7 Segment/fsm_top_tb.vhd
 l0
 L5 1
-V`jeHXR_EH^eSJ2Ig135ET0
-!s100 miFXbkgMb`kS0ABP=dNBT3
+Vm9R:XV_90JRzGg4`5kG8_0
+!s100 dEzR?E[Y=53QQOJAI:jQl2
 R7
 32
 R8
 !i10b 1
-R9
-Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/7 I2C 7 Segment/shiftingonly_tb.vhd|
-Z18 !s107 C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/7 I2C 7 Segment/shiftingonly_tb.vhd|
+Z17 !s108 1747352423.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/7 I2C 7 Segment/fsm_top_tb.vhd|
+!s107 C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/7 I2C 7 Segment/fsm_top_tb.vhd|
 !i113 1
 R12
 R13
@@ -79,19 +79,105 @@ Abehavior
 R1
 R2
 R3
-Z19 DEx4 work 22 shiftregisterserial_tb 0 22 `jeHXR_EH^eSJ2Ig135ET0
-!i122 31
-l38
-Z20 L8 90
-Z21 VUVgGTz8LWmgWh?8Kbz<=_1
-Z22 !s100 g12<>chZE0M1f=0Q]8PX63
+DEx4 work 10 fsm_top_tb 0 22 m9R:XV_90JRzGg4`5kG8_0
+!i122 35
+l28
+L8 59
+V497zCl0:m3@oiBG^k_7IG0
+!s100 ^L_SO_=]8i3P0@F5^?PfI3
 R7
 32
 R8
 !i10b 1
-R9
 R17
 R18
+Z19 !s107 C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/7 I2C 7 Segment/fsm_top_tb.vhd|
+!i113 1
+R12
+R13
+Eshiftregisterserial
+Z20 w1747352331
+R1
+R2
+R3
+!i122 32
+R4
+Z21 8C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/7 I2C 7 Segment/shiftingonly.vhd
+Z22 FC:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/7 I2C 7 Segment/shiftingonly.vhd
+l0
+L5 1
+V64Hl=Lk0oCoTId:D]e8P[2
+!s100 iga7k`826Cm5ZA2MP21:T1
+R7
+32
+Z23 !s110 1747352422
+!i10b 1
+R9
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/7 I2C 7 Segment/shiftingonly.vhd|
+Z25 !s107 C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/7 I2C 7 Segment/shiftingonly.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+DEx4 work 19 shiftregisterserial 0 22 64Hl=Lk0oCoTId:D]e8P[2
+!i122 32
+l38
+L17 85
+V]hGzdMc?`M[dDfD`OZ98f2
+!s100 fDd4Sh_6mUT9^FS^43iCk2
+R7
+32
+R23
+!i10b 1
+R9
+R24
+R25
+!i113 1
+R12
+R13
+Eshiftregisterserial_tb
+Z26 w1747272376
+R1
+R2
+R3
+!i122 33
+R4
+Z27 8C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/7 I2C 7 Segment/shiftingonly_tb.vhd
+Z28 FC:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/7 I2C 7 Segment/shiftingonly_tb.vhd
+l0
+L5 1
+V`jeHXR_EH^eSJ2Ig135ET0
+!s100 miFXbkgMb`kS0ABP=dNBT3
+R7
+32
+R23
+!i10b 1
+R9
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/7 I2C 7 Segment/shiftingonly_tb.vhd|
+Z30 !s107 C:/Users/emartezorrilla/OneDrive - University of Florida/Documents/ModelSim_FPGA/7 I2C 7 Segment/shiftingonly_tb.vhd|
+!i113 1
+R12
+R13
+Abehavior
+R1
+R2
+R3
+DEx4 work 22 shiftregisterserial_tb 0 22 `jeHXR_EH^eSJ2Ig135ET0
+!i122 33
+l38
+L8 90
+VUVgGTz8LWmgWh?8Kbz<=_1
+!s100 g12<>chZE0M1f=0Q]8PX63
+R7
+32
+R23
+!i10b 1
+R9
+R29
+R30
 !i113 1
 R12
 R13
