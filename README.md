@@ -20,11 +20,8 @@ First, I tried several things, but since I didn't remember everything, I had to 
 
 **Experiment 4:** This isn't an experiment per se, but rather a reproduction of Professor Stitt's GitHub tutorial, which can be found [here](https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/tree/main/4.%20vhdl-tutorial-UF)  as a reference.
 
+**Experiment 5:** At this point, I needed precise timing for testing purposes. To validate the timing and functionality of the system, I implemented a test program that generated a 0.5-second time base derived from the Arty S7 board’s 100 MHz system clock. This was achieved by using a clock divider that counts the required number of cycles to match the desired interval. Once the time base was established, I created a simple LED sequence using the board's output LEDs. The LEDs were toggled in a defined pattern—such as a binary counter or shift sequence—at the 0.5-second interval. This setup allowed me to visually verify that the timing logic was functioning as expected and provided a reliable means to observe clock-driven changes on the hardware in real time. [Led Blink Sequence Here](https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/tree/main/5.%20Led_blink) 
 
-
-**Options:**
-
-* [Led Blink:](https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/tree/main/5.%20Led_blink) Toggle each 0.5 secs.
 
 **Projects I want to explore:**
   [Project List](https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/projects.md)
