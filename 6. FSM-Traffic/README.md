@@ -61,110 +61,151 @@ See that PC and PB were defined. PB and PC are ports for the ARAD board. PC I am
 
 For this implementation, I designed a finite state machine (FSM) to manage the traffic light states, and I reused the timing mechanism developed in Experiment 5 to control state transitions with precise delays FSM Traffic Light Files and Implementation.
 
-[![Video Title](https://img.youtube.com/vi/EepTHyhbnfA/0.jpg)](https://youtu.be/EepTHyhbnfA)
-
 <ins>**Code:**</ins>
 > [!NOTE]
->See the line: MAX_COUNT_VAL : integer := 50000000  -- default: 0.5s at 100 MHz. If no max values is passed the system assumes a 100MHZ clk.
+>This VHDL code defines a simple Moore finite state machine (FSM) for an FPGA implementation, simulating a basic traffic light system with three states. The FSM operates on a clock signal and cycles through three states: STATE0, STATE1, and STATE2, each representing different light outputs (001, 010, 100) which might correspond to Green, Yellow, and Red respectively. A generic parameter MAX_COUNT_VAL1 defines the base timing interval, typically 0.5 seconds at a 100 MHz clock. The FSM uses a combination of two counters: one (counter) to generate timing ticks by comparing against MAX_COUNT, and another (timing_counter) to determine how many such ticks each state should last. Transitions between states occur only when both a timing enable (en) signal is active and the desired number of ticks (timing_target) has elapsed.
+
+> [!NOTE]
+> The architecture is organized into two main processes: one for managing state transitions and output logic, and the other for generating the en pulse at defined intervals. The FSM starts in STATE0, outputs "001", and waits 10 timing intervals before transitioning to STATE1, which outputs "010" and lasts 6 intervals, followed by STATE2 with "100" lasting 8 intervals before looping back. The outputs PC and Light are both driven by the same register, output_r, effectively representing the current state externally. This implementation demonstrates a clean separation of timing logic from state transitions and allows for easy reconfiguration of state durations through parameters.
 ```
 
-library IEEE;
-use IEEE.STD_LOGIC_1164.ALL;
-use IEEE.NUMERIC_STD.ALL;
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
 
-entity led_blink is
+entity moore is
   generic (
-        MAX_COUNT_VAL : integer := 50000000  -- default: 0.5s at 100 MHz
+        MAX_COUNT_VAL1 : integer := 50000000  -- default: 0.5s at 100 MHz
     );
-    Port (
-        clk : in  STD_LOGIC;             -- 100 MHz clock input
-        led  : out STD_LOGIC_VECTOR(3 downto 0)              -- LED output
-    );
-end led_blink;
+    port (
+    
+        clk      : in  std_logic;
+        PC       : out std_logic_vector(2 downto 0);
+        Light       : out std_logic_vector(2 downto 0)
+        );
+end moore;
 
-architecture Behavioral of led_blink is
 
-    --constant MAX_COUNT : unsigned(25 downto 0) := to_unsigned(50_000_000 - 1, 26); -- 0.5 sec at 100 MHz
-	constant MAX_COUNT : unsigned(25 downto 0) := to_unsigned(MAX_COUNT_VAL - 1, 26);
-    signal counter     : unsigned(25 downto 0) := (others => '0');
-    signal led_reg     : STD_LOGIC_vector(3 downto 0) := "0001";
 
+-- This architecture show a simplified version of the previous architecture.
+
+architecture one_process_2 of moore is
+
+    type state_t is (STATE0, STATE1, STATE2);
+
+
+    -- Internal signals
+    signal state_r         : state_t := STATE0;
+    signal output_r        : std_logic_vector(2 downto 0) := "001";
+    signal counter         : unsigned(25 downto 0) := (others => '0');
+    signal en              : std_logic := '0';
+    signal max_count_val   : integer := MAX_COUNT_VAL1;
+    signal timing_counter  : integer := 0;  -- Count how many times to trigger timing function
+    signal max_count       : unsigned(25 downto 0);
+    signal timing_target  : integer := 1;  -- How many times to delay before changing state
+
+    
 begin
+  -- Convert max_count_val to unsigned for the counter process
+    max_count <= to_unsigned(max_count_val - 1, 26);
 
-    process( clk)
+    -- State machine process
+    process(clk)
+    begin
+        --if (rst = '0') then
+        --    output_r <= "001";
+        --    state_r  <= STATE0;
+		--	en <= '0' ;
+            
+        if(clk'event and clk = '1') then
+
+            case state_r is
+            
+            
+            
+            when STATE0 =>
+                    output_r      <= "001";
+                    max_count_val <= 50000000;  -- Delay for this state
+                    timing_target <= 10;          -- Wait 2 delay cycles
+
+                    if en = '1' then
+                        if timing_counter = timing_target - 1 then
+                            state_r        <= STATE1;
+                            timing_counter <= 0;
+                        else
+                            timing_counter <= timing_counter + 1;
+                        end if;
+                    end if;
+                    
+                    
+                               
+                  when STATE1 =>
+                    output_r      <= "010"; -- Yellow
+                   max_count_val <= 50000000;  -- Delay for this state
+                    timing_target <= 6;
+
+                    if en = '1' then
+                        if timing_counter = timing_target - 1 then
+                            state_r        <= STATE2;
+                            timing_counter <= 0;
+                        else
+                            timing_counter <= timing_counter + 1;
+                        end if;
+                    end if;
+                    
+                when STATE2 =>
+                    output_r      <= "100";
+                    max_count_val <= 50000000;  -- Delay for this state
+                    timing_target <= 8;
+
+                    if en = '1' then
+                        if timing_counter = timing_target - 1 then
+                            state_r        <= STATE0;
+                            timing_counter <= 0;
+                        else
+                            timing_counter <= timing_counter + 1;
+                        end if;
+                    end if;
+
+
+               
+                    
+                when others => null;
+            end case;
+        end if;
+    end process;
+	
+	
+	 process( clk)
     begin
        
         if rising_edge( clk) then
             if counter = MAX_COUNT then
-                counter <= (others => '0');
-                if led_reg ="0001" then
-                    led_reg <= "0010";
-                    elsif  led_reg = "0010" then
-                    led_reg <= "0100";
-                    elsif  led_reg = "0100" then
-                    led_reg <= "1000";
-                    else
-                    led_reg <= "0001";
-                      
-                end if;
+                counter <= (others => '0');       
+                en <= '1';   				
             else
                 counter <= counter + 1;
+                en <= '0';
             end if;
         end if;
     end process;
 
-    led <= led_reg;
-
-end Behavioral;
-
+    -- Assign the output register directly to the output.
+    PC <= output_r;
+    Light <= output_r;
+end one_process_2;
 ```
-System work both in Hardware and simulation!
 
-**Testbench**
+> [!NOTE]
+> **VHDL Files and Testbench**
 
-```
-library IEEE;
-use IEEE.STD_LOGIC_1164.ALL;
+* [Traffic_fsm.vhd](https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/6.%20FSM-Traffic/Traffic_fsm.vhd).
+* [Traffic_fsm_tb.vhd](https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/6.%20FSM-Traffic/Traffic_fsm_tb.vhd)
 
-entity tb_led_blink is
-end tb_led_blink;
 
-architecture Behavioral of tb_led_blink is
-
-    signal clk : STD_LOGIC := '0';
-    signal led : STD_LOGIC_VECTOR(3 downto 0);
-
-    -- Clock generation process: 10 ns period (100 MHz)
-    constant clk_period : time := 1 ns;
-
-begin
-
-    -- Instantiate the DUT
-    uut: entity work.led_blink
-        generic map (
-            MAX_COUNT_VAL => 11   -- Faster simulation
-        )
-        port map (
-            clk => clk,
-            led => led
-        );
-
-    -- Clock generation
-    clk_process: process
-    begin
-        while now < 1 us loop  -- Run simulation for 1 microsecond
-            clk <= '0';
-            wait for clk_period / 2;
-            clk <= '1';
-            wait for clk_period / 2;
-        end loop;
-        wait;
-    end process;
-
-end Behavioral;
-```
 **Simulation**
- <img src="https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/img/led_blink.png"   align="center">  
+ [![Youtube Video Demo](https://i9.ytimg.com/vi/EepTHyhbnfA/mqdefault.jpg)](https://youtu.be/EepTHyhbnfA)
+
 **Options:**
 * [3.0:](https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/simplecircuit.md) Problem Definition/description
 * [3.1:](https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/tree/main/3.%20Single%20Gates) Using a top-level module that instantiates several individual gates, each defined in separate VHDL files.
