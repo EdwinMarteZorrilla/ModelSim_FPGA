@@ -203,14 +203,7 @@ end one_process_2;
 * [Traffic_fsm_tb.vhd](https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/6.%20FSM-Traffic/Traffic_fsm_tb.vhd)
 
 
-**Simulation**
+**Demo**
  [![Youtube Video Demo](https://i9.ytimg.com/vi/EepTHyhbnfA/mqdefault.jpg)](https://youtu.be/EepTHyhbnfA)
-
-**Options:**
-* [3.0:](https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/simplecircuit.md) Problem Definition/description
-* [3.1:](https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/tree/main/3.%20Single%20Gates) Using a top-level module that instantiates several individual gates, each defined in separate VHDL files.
-* [3.2:](https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/3.%20Single%20Gates/opcion2) Creating components and instantiating them within the same VHDL file.
-* [3.3:](https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/3.%20Single%20Gates/opcion3) Implementing the design in a single VHDL file using a behavioral architecture derived from the logic equation.
-* [3.4:](https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/3.%20Single%20Gates/opcion4) Implementing the design in a single VHDL file using a behavioral architecture based on a truth table.
 
 
