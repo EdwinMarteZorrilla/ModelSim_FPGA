@@ -24,6 +24,8 @@ First, I tried several things, but since I didn't remember everything, I had to 
 
 **Experiment 6:** Building on the progress made in previous experiments, I set out to implement a simple traffic light system. To interface external hardware, I connected an ARAD traffic light board to the Arty S7 FPGA. Initially, I used the shield connectors, but later transitioned to the PMOD ports for better compatibility and layout. Ultimately, my final tests used a prebuilt Arduino-compatible traffic light module, which was connected via the shield ports. For this implementation, I designed a finite state machine (FSM) to manage the traffic light states, and I reused the timing mechanism developed in Experiment 5 to control state transitions with precise delays [FSM Traffic Light Files and Implementation.](https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/tree/main/6.%20FSM-Traffic) 
 
+<img src="https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/img/artyled01.jpeg" width=50% height=35%  align="center">
+
 **Projects I want to explore:**
   [Project List](https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/projects.md)
 
