@@ -12,6 +12,7 @@ First, I tried several things, but since I didn't remember everything, I had to 
 **Experiment 2:** This is still a work in progress. I’ve started developing a communication protocol between the Arduino and the FPGA, allowing the Arduino to relay information from the PC to the FPGA. The main idea is to enable a PC program to send commands that the FPGA can execute. For example, sending the command 01 followed by two data bytes would instruct the FPGA to add the values and return the result. [The relevant files are included](https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/tree/main/2.%20FPGA_BasicMath_Shield), but again, this is an ongoing project and not yet complete.
 
 **Experiment 3:** This experiment has multiple parts. I explore how to design a circuit in several ways:
+* [3.0:](https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/simplecircuit.md) Problem Definition/description
 * [3.1:](https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/tree/main/3.%20Single%20Gates) Using a top-level module that instantiates several individual gates, each defined in separate VHDL files.
 * [3.2:](https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/3.%20Single%20Gates/opcion2) Creating components and instantiating them within the same VHDL file.
 * [3.3:](https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/3.%20Single%20Gates/opcion3) Implementing the design in a single VHDL file using a behavioral architecture derived from the logic equation.
