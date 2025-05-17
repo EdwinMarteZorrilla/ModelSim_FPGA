@@ -6,6 +6,12 @@ ID    |   Date    |
 7     | 02/02/18  |   
 
 
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/128e4307-4254-4268-b928-04369fe2f766" width="100" />
+  <img src="https://github.com/user-attachments/assets/128e4307-4254-4268-b928-04369fe2f766" width="100" /> 
+  <img src="https://github.com/user-attachments/assets/128e4307-4254-4268-b928-04369fe2f766" width="100" />
+</p>
+
 <img src="https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/img/artyled01.jpeg" width=50% height=35%  align="center">
 
 **Ports configuration:**
