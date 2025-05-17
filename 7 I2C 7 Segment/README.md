@@ -1,7 +1,10 @@
-# Traffic Light FSM
-This projects is a simple traffic light goig from green to yellow, then to red and nback to green. The leds are display in both the ARAD board and the 
+# 7 Segment Display Integration
 
-To interface external hardware, I connected an ARAD traffic light board to the Arty S7 FPGA. Initially, I used the shield connectors, but later transitioned to the PMOD ports for better compatibility and layout. Ultimately, my final tests used a prebuilt Arduino-compatible traffic light module, which was connected via the shield ports. See the port configuration below:
+ID    |   Date    |   
+---   |   ------  |   
+|  <img src="https://github.com/user-attachments/assets/128e4307-4254-4268-b928-04369fe2f766" width=25% height=25%  align="center">    |       <img src="https://m.media-amazon.com/images/I/61gmja+-qkL._SL1000_.jpg" width=25% height=25%  align="center">     |   
+7     | 02/02/18  |   
+
 
 <img src="https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/img/artyled01.jpeg" width=50% height=35%  align="center">
 
