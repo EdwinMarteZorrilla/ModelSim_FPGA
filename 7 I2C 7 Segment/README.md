@@ -1,9 +1,26 @@
 # 7 Segment Display Integration
 
-ID    |   Date    |   
+**First Options:**
+
+I considered including using a single 7-segment display or a 4-digit setup. However, I quickly realized that using discrete components required too many GPIO pins and wires, even for just one digit. The 4-digit version was not only cumbersome in wiring but also physically large, taking up too much space on the breadboard.
+
+Single 7 Segment Display    |   Discrete 4 Segment Display Module    |   
 ---   |   ------  |   
-|  <img src="https://github.com/user-attachments/assets/128e4307-4254-4268-b928-04369fe2f766" width=25% height=25%  align="center">    |       <img src="https://m.media-amazon.com/images/I/61gmja+-qkL._SL1000_.jpg" width=25% height=25%  align="center">     |   
-7     | 02/02/18  |   
+|  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Seven_segment_02_Pengo.jpg/1200px-Seven_segment_02_Pengo.jpg" width=50% height=50%  align="center">    |       <img src="https://th.bing.com/th/id/R.ac22dd04ad6e7eb510ce287559875460?rik=%2bCA6lJZuqa%2fEBQ&riu=http%3a%2f%2fwww.circuitbasics.com%2fwp-content%2fuploads%2f2017%2f05%2fArduino-7-Segment-Tutorial-4-Digit-Display-2.jpg&ehk=4fvTFN3nOIIEPcJOoaJg7H8QD8KAbkDyT3oOpKBoguI%3d&risl=&pid=ImgRaw&r=0" width=75% height=75%  align="center">     |   
+   
+**Second Option:**
+
+I then considered using an Arduino-style shield like this one, which is compact and integrates four 7-segment displays. However, it operates at 5V, which raised concerns since the FPGA I’m using requires 3.3V logic levels. 
+
+
+Single 7 Segment Display    |   Discrete 4 Segment Display Module    |   
+---   |   ------  |   
+|  <img src="https://store.arrowdot.io/wp-content/uploads/2021/09/Multi-functional-Expansion.jpg" width=50% height=50%  align="center">    |   <ul><li>item1</li><li>item2</li></ul> |   
+   
+
+
+After further research, I found a better alternative: this 4-digit display module, which is controlled through only four pins and uses the TM1637 driver. It’s a compact, efficient solution compatible with 3.3V logic, making it ideal for FPGA-based designs. More details on the integration are provided ahead.
+
 
 
 <p float="left">
