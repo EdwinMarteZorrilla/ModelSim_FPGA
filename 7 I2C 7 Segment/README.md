@@ -157,6 +157,8 @@ Files:
 **Simulation**
 ![image](https://github.com/user-attachments/assets/462301b8-3357-48e9-ac0e-9ebc0bee0ab9)
 
+This image shows the input data being shifted out through the DIO pin every two clock cycles. Notice that the DIO and CLK pins go to high-impedance ("Z") state when they are expected to hold a high value, following the I²C protocol behavior.
+
  
 <p float="left">
   <img src="https://github.com/user-attachments/assets/128e4307-4254-4268-b928-04369fe2f766" width="100" />
