@@ -67,6 +67,11 @@ For this implementation, I designed a finite state machine (FSM) to manage the t
 
 > [!NOTE]
 > The architecture is organized into two main processes: one for managing state transitions and output logic, and the other for generating the en pulse at defined intervals. The FSM starts in STATE0, outputs "001", and waits 10 timing intervals before transitioning to STATE1, which outputs "010" and lasts 6 intervals, followed by STATE2 with "100" lasting 8 intervals before looping back. The outputs PC and Light are both driven by the same register, output_r, effectively representing the current state externally. This implementation demonstrates a clean separation of timing logic from state transitions and allows for easy reconfiguration of state durations through parameters.
+
+**FSM Diagram**
+
+<img src="https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/img/fsm.jpeg" width=50% height=35%  align="center">
+
 ```
 
 library ieee;
