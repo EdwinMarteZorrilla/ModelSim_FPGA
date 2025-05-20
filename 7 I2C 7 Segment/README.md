@@ -13,13 +13,21 @@ Single 7 Segment Display    |   Discrete 4 Segment Display Module    |
 I then considered using an Arduino-style shield like this one, which is compact and integrates four 7-segment displays. However, it operates at 5V, which raised concerns since the FPGA I’m using requires 3.3V logic levels. 
 
 
-Single 7 Segment Display    |   Discrete 4 Segment Display Module    |   
----   |   ------  |   
-|  <img src="https://store.arrowdot.io/wp-content/uploads/2021/09/Multi-functional-Expansion.jpg" width=50% height=50%  align="center">    |   <ul><li>item1</li><li>item2</li></ul> |   
-   
+| Arduino Shield | Resources |
+|--------------------------|------------------------------------|
+| <img src="https://store.arrowdot.io/wp-content/uploads/2021/09/Multi-functional-Expansion.jpg" width="300"> | • <a href="https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/4.%20Github%20Resources/2.%20multifunctionshield/multi_function_board_schematic.pdf" target="_blank">Board Schematic (PDF)</a><br>• <a href="https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/tree/main/4.%20Github%20Resources/2.%20multifunctionshield" target="_blank">Shield Repository and Examples</a><br>• <a href="https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/tree/main/4.%20Github%20Resources/3.%20MFShield/examples" target="_blank">Another Repository with Examples</a> |
+
+**Third Option:**
+The last option I velauated was using this 4-digit display module (below), which is controlled through only four pins and uses the TM1637 driver. It’s a compact, efficient solution compatible with 3.3V logic, making it ideal for FPGA-based designs. 
+
+| Arduino Shield | Resources |
+|--------------------------|------------------------------------|
+| <img src="https://github.com/user-attachments/assets/128e4307-4254-4268-b928-04369fe2f766" width="100" /> | • <a href="https://github.com/avishorp/TM1637/tree/master" target="_blank">Github Library</a><br>• <a href="https://gannochenko.dev/blog/tm1637-led-driver-meets-arduino-detailed-explanation" target="_blank">Explanation and example</a><br>• <a href="https://github.com/revolunet/tm1637/blob/master/datasheet-en.pdf" target="_blank">TM1637 Datasheet</a> |
+
+This circuit behaves like an I²C device and requires adherence to a specific communication protocol to function properly. Internally, it includes two pull-up resistors, so the pins connected to the DIO and CLK lines must actively drive the signals low (to ground) when needed and remain configured as inputs otherwise.
 
 
-After further research, I found a better alternative: this 4-digit display module, which is controlled through only four pins and uses the TM1637 driver. It’s a compact, efficient solution compatible with 3.3V logic, making it ideal for FPGA-based designs. More details on the integration are provided ahead.
+
 
 
 
