@@ -1,6 +1,5 @@
 **Future Projects** (from https://www.fpga4student.com/p/vhdl-project.html)
 
-1. What is an FPGA? How VHDL works on FPGA
 2. VHDL code for FIFO memory
 3. VHDL code for FIR Filter
 4. VHDL code for 8-bit Microcontroller
