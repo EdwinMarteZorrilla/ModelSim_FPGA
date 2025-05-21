@@ -159,17 +159,31 @@ Files:
 
 This image shows the input data being shifted out through the DIO pin every two clock cycles. Notice that the DIO and CLK pins go to high-impedance ("Z") state when they are expected to hold a high value, following the I²C protocol behavior.
 
-<ins>**Code:**</ins>
-> [!NOTE]
->This VHDL code defines a simple Moore finite state machine (FSM) for an FPGA implementation, simulating a basic traffic light system with three states. The FSM operates on a clock signal and cycles through three states: STATE0, STATE1, and STATE2, each representing different light outputs (001, 010, 100) which might correspond to Green, Yellow, and Red respectively. A generic parameter MAX_COUNT_VAL1 defines the base timing interval, typically 0.5 seconds at a 100 MHz clock. The FSM uses a combination of two counters: one (counter) to generate timing ticks by comparing against MAX_COUNT, and another (timing_counter) to determine how many such ticks each state should last. Transitions between states occur only when both a timing enable (en) signal is active and the desired number of ticks (timing_target) has elapsed.
+**FSM Implementaion**
 
-> [!NOTE]
-> The architecture is organized into two main processes: one for managing state transitions and output logic, and the other for generating the en pulse at defined intervals. The FSM starts in STATE0, outputs "001", and waits 10 timing intervals before transitioning to STATE1, which outputs "010" and lasts 6 intervals, followed by STATE2 with "100" lasting 8 intervals before looping back. The outputs PC and Light are both driven by the same register, output_r, effectively representing the current state externally. This implementation demonstrates a clean separation of timing logic from state transitions and allows for easy reconfiguration of state durations through parameters.
+This VHDL module, FSM_Top, defines a finite state machine (FSM) that controls a serial shift register component for sending three consecutive 8-bit values (as test)  over a custom I²C-like interface using two bidirectional lines: dio (data) and clk_out (clock). The design orchestrates communication using internal control signals and a sequence of states.
 
- 
-<p float="left">
-  <img src="https://github.com/user-attachments/assets/128e4307-4254-4268-b928-04369fe2f766" width="100" />
-  <img src="https://github.com/user-attachments/assets/128e4307-4254-4268-b928-04369fe2f766" width="100" /> 
-  <img src="https://github.com/user-attachments/assets/128e4307-4254-4268-b928-04369fe2f766" width="100" />
-</p>
+The FSM includes seven states: IDLE, SEND1, WAIT1, SEND2, WAIT2, SEND3, and WAIT3. In each SENDx state, a specific 8-bit value is loaded into the shift register (x"CA", x"B2", and x"3F" respectively). A single-cycle pulse is asserted on load_sig to trigger the transmission. The WAITx states monitor the done_sig from the shift register module, ensuring that the byte has been fully transmitted before progressing to the next state, this follows the Arduino TM1617 example.
+
+Internally, the FSM keeps track of whether the load pulse has already been issued during a particular SENDx state using the load_pulse_issued flag, which prevents repeated loading within the same cycle. Once all three bytes have been sent and confirmed via done_sig, the FSM returns to the IDLE state and can repeat the sequence.
+
+The shift register component (ShiftRegisterSerial) is instantiated within the architecture and is responsible for the actual bit-level communication, driven by the clk signal and synchronized using a clock divider in its own logic. The FSM acts as a high-level controller that sequences these data transmissions in a structured and predictable way. Below is a simulation and associated files.
+
+**Simulation**
+![image](https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/img/shift_fsm3.png)
+
+Again, it can be observed that the outputs for DIO and CLK go to high-impedance (Z) when they are logically high. This behavior aligns with the I²C-like protocol, where devices release the line instead of actively driving it high. By examining the transitions on the DIO line, we can verify that the bit patterns correspond correctly with the loaded values: x"CA", x"B2", and x"3F", confirming that the data is being shifted out as intended.
+
+Files:
+* [fsm_top.vhd](https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/7%20I2C%207%20Segment/fsm_top.vhd)
+* [fsm_top_tb.vhd](https://github.com/EdwinMarteZorrilla/ModelSim_FPGA/blob/main/7%20I2C%207%20Segment/fsm_top_tb.vhd)
+
+
+**Next Steps:**
+
+* Extend the FSM to support additional data loads for a complete display sequence. Once the design is finalized, compile and synthesize it using Vivado, and program the FPGA to validate functionality on real hardware.
+* Integrate into the Simple Traffic light counting and displaying the counter in the displays.
+
+
+
 
